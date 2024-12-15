@@ -1753,3 +1753,1238 @@ Please use /Niagara/DynamicInputs/Angles/AngleConversion.AngleConversion instead
 [2024.12.15-15.30.37:447][652]LogMeshUtilities: Finished distance field build in 1.5s - 259x28x161 sparse distance field, 1.3Mb total, 0.0Mb always loaded, 65% occupied, 1614 triangles, SM_Large_Gate_01
 [2024.12.15-15.30.37:568][654]LogDerivedDataCache: C:/Users/muham/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
 [2024.12.15-15.30.51:404][100]LogMeshUtilities: Finished distance field build in 7.9s - 259x259x259 sparse distance field, 7.9Mb total, 0.3Mb always loaded, 24% occupied, 5366 triangles, SM_FloatingIsland_L
+[2024.12.15-15.31.54:162][463]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.15-15.31.54:167][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.15-15.31.54:168][463]LogPlayLevel: Display: Creating online subsystem for client :Context_2
+[2024.12.15-15.31.54:170][463]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2024.12.15-15.31.54:194][464]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.12.15-15.31.54:224][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029485s)
+[2024.12.15-15.31.54:224][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.029531s)
+[2024.12.15-15.31.54:273][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.12.15-15.31.54:274][464]LogChaosDD: Creating Chaos Debug Draw Scene for world LearningKit_Games_Showcase
+[2024.12.15-15.31.54:277][464]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase'.
+[2024.12.15-15.31.54:277][464]LogPlayLevel: PIE: World Init took: (0.001841s)
+[2024.12.15-15.31.54:278][464]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.12.15-15.31.54:278][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.15-15.31.54:278][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.15-15.31.54:278][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.15-15.31.54:278][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.15-15.31.54:278][464]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.15-15.31.54:278][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.15-15.31.54:278][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.15-15.31.54:278][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.15-15.31.54:278][464]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.15-15.31.54:278][464]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.15-15.31.54:278][464]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.15-15.31.54:280][464]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.15-15.31.54:298][464]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.12.15-15.31.54:298][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.15-15.31.54:298][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.15-15.31.54:298][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.15-15.31.54:299][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.12.15-15.31.54:299][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.12.15-15.31.54:301][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.12.15-15.31.54:301][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.12.15-15.31.54:301][464]LogInit: FAudioDevice initialized with ID 2.
+[2024.12.15-15.31.54:301][464]LogAudio: Display: Audio Device (ID: 2) registered with world 'LearningKit_Games_Showcase'.
+[2024.12.15-15.31.54:301][464]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.12.15-15.31.54:304][464]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.12.15-15.31.54:316][464]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.12.15-20.31.54
+[2024.12.15-15.31.55:682][464]LogWorld: Bringing up level for play took: 1.377255
+[2024.12.15-15.31.55:688][464]PIE: Server logged in
+[2024.12.15-15.31.55:689][464]PIE: Play in editor total start time 1.522 seconds.
+[2024.12.15-15.31.55:714][465]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.091004 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2024.12.15-15.32.03:155][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-15.32.03:155][343]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.12.15-15.32.03:165][343]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-15.32.03:167][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-15.32.03:171][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.15-15.32.03:174][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-15.32.03:182][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-15.32.03:184][343]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.12.15-15.32.03:184][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.12.15-15.32.03:185][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.12.15-15.32.03:194][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.12.15-15.32.04:481][344]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: ================================================
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Total job queries 974, among them cache hits 25 (2.57%), DDC hits 0 (0.00%), Duplicates 192 (19.71%)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Tracking 757 distinct input hashes that result in 545 distinct outputs (71.99%)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: RAM used: 349.91 KiB of 819.20 MiB budget. Usage: 0.04%
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Shaders Compiled: 757
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Jobs assigned 757, completed 757 (100%)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Average time worker was idle: 1.03 s
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Time job spent in pending queue: average 31.73 s, longest 74.23 s
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Job execution time: average 8.22 s, max 13.31 s
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Job life time (pending + execution): average 39.95 s, max 76.08
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Shader code size: average 7.442 KiB, min 200 B, max 31.59 KiB
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 102.05 s
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Jobs were issued in 151 batches (only local compilation was used), average 5.01 jobs/batch
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Average processing rate: 7.42 jobs/sec
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Total thread time: 753.604 s
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Total thread preprocess time: 10.873 s
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Percentage time preprocessing: 1.44%
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Effective parallelization: 7.38 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   22 times, average 2.96 sec, max 4.11 sec, min 1.88 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   18 times, average 2.15 sec, max 4.89 sec, min 0.42 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 1.99 sec, max 1.99 sec, min 1.99 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   42 times, average 1.72 sec, max 6.61 sec, min 0.51 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   26 times, average 1.63 sec, max 7.69 sec, min 0.74 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.59% of total time (compiled   42 times, average 1.72 sec, max 6.61 sec, min 0.51 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.63% of total time (compiled   22 times, average 2.96 sec, max 4.11 sec, min 1.88 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                                  FVelocityPS - 5.61% of total time (compiled   26 times, average 1.63 sec, max 7.69 sec, min 0.74 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.14% of total time (compiled   18 times, average 2.15 sec, max 4.89 sec, min 0.42 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.21% of total time (compiled   26 times, average 1.22 sec, max 3.82 sec, min 0.70 sec)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: === Material stats ===
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Materials Translated:    138
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Material Translation Only: 0.04 s (50%)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.12.15-15.33.11:537][346]LogShaderCompilers: Display: ================================================
+[2024.12.15-15.36.14:102][243]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 372.221130
+[2024.12.15-15.36.14:360][274]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.15-15.36.14:360][274]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 372.471252, Update Interval: 331.500610
+[2024.12.15-15.39.23:149][520]LogSlate: Window 'Save Level As' being destroyed
+[2024.12.15-15.39.23:253][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.12.15-15.39.23:281][520]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2024.12.15-15.39.23:281][520]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/Main.Main'.
+[2024.12.15-15.39.23:319][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.15-15.39.23:329][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.12.15-15.39.23:397][520]LogSavePackage: Moving output files for package: /Game/Main
+[2024.12.15-15.39.23:397][520]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/MainF5D5AB2E4ABAD0D6C58B1C8E4F2E6306.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap'
+[2024.12.15-15.39.23:419][520]LogFileHelpers: Saving map 'Main' took 0.263
+[2024.12.15-15.39.23:419][520]Cmd: MAP LOAD FILE="E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.12.15-15.39.23:436][520]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-15.39.23:436][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-15.39.23:443][520]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.15-15.39.23:448][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.12.15-15.39.23:452][520]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-15.39.23:452][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-15.39.23:464][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.15-15.39.23:473][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.12.15-15.39.23:473][520]LogStreaming: Display: FlushAsyncLoading(338): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.39.23:567][520]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main'.
+[2024.12.15-15.39.23:567][520]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2024.12.15-15.39.23:568][520]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/Main.Main'.
+[2024.12.15-15.39.24:959][520]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.12.15-15.39.24:974][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.12.15-15.39.24:977][520]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.12.15-15.39.24:977][520]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.055ms to complete.
+[2024.12.15-15.39.25:022][520]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.15-15.39.25:022][520]LogContentValidation: Enabled validators:
+[2024.12.15-15.39.25:022][520]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-15.39.25:022][520]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-15.39.25:022][520]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-15.39.25:022][520]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-15.39.25:022][520]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-15.39.25:022][520]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-15.39.25:023][520]AssetCheck: /Game/Main Validating asset
+[2024.12.15-15.39.25:056][520]LogAutomationController: Ignoring very large delta of 21.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.15-15.39.28:044][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-15.39.28:105][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.15-15.39.29:911][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.12.15-15.39.29:981][868]LogSavePackage: Moving output files for package: /Game/Main
+[2024.12.15-15.39.29:981][868]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/Main0AB49C9B4E60DD8661C31695E496F470.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap'
+[2024.12.15-15.39.29:985][868]LogFileHelpers: Saving map 'Main' took 1.880
+[2024.12.15-15.39.29:991][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.94 sec
+[2024.12.15-15.39.30:037][868]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.15-15.39.30:037][868]LogContentValidation: Enabled validators:
+[2024.12.15-15.39.30:037][868]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-15.39.30:037][868]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-15.39.30:037][868]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-15.39.30:037][868]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-15.39.30:037][868]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-15.39.30:037][868]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-15.39.30:038][868]AssetCheck: /Game/Main Validating asset
+[2024.12.15-15.39.30:049][868]LogAutomationController: Ignoring very large delta of 2.01 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.15-15.39.41:309][216]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.15-15.39.43:140][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.15-15.39.43:185][216]LogPlayLevel: Display: Creating online subsystem for client :Context_3
+[2024.12.15-15.39.43:187][216]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.12.15-15.39.43:199][217]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.12.15-15.39.43:216][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017842s)
+[2024.12.15-15.39.43:216][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.017882s)
+[2024.12.15-15.39.43:224][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.12.15-15.39.43:225][217]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2024.12.15-15.39.43:226][217]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/UEDPIE_0_Main.Main'.
+[2024.12.15-15.39.43:226][217]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2024.12.15-15.39.43:227][217]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.12.15-15.39.43:227][217]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.15-15.39.43:227][217]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.15-15.39.43:227][217]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.15-15.39.43:227][217]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.15-15.39.43:227][217]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.15-15.39.43:227][217]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.15-15.39.43:227][217]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.15-15.39.43:227][217]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.15-15.39.43:227][217]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.15-15.39.43:227][217]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.15-15.39.43:227][217]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.15-15.39.43:229][217]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.15-15.39.43:247][217]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.12.15-15.39.43:248][217]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.15-15.39.43:248][217]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.15-15.39.43:248][217]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.15-15.39.43:248][217]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.12.15-15.39.43:248][217]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.12.15-15.39.43:250][217]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.12.15-15.39.43:250][217]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.12.15-15.39.43:250][217]LogInit: FAudioDevice initialized with ID 3.
+[2024.12.15-15.39.43:250][217]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2024.12.15-15.39.43:250][217]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.12.15-15.39.43:252][217]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.12.15-15.39.43:264][217]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.12.15-20.39.43
+[2024.12.15-15.39.44:612][217]LogWorld: Bringing up level for play took: 1.360100
+[2024.12.15-15.39.44:617][217]PIE: Server logged in
+[2024.12.15-15.39.44:618][217]PIE: Play in editor total start time 1.478 seconds.
+[2024.12.15-15.39.44:619][217]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.059548 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2024.12.15-15.40.54:225][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-15.40.54:225][551]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.12.15-15.40.54:225][551]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.12.15-15.40.54:228][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-15.40.54:231][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.15-15.40.54:234][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.15-15.40.54:243][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.15-15.40.54:243][551]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.12.15-15.40.54:243][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.12.15-15.40.54:245][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.12.15-15.40.54:252][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.12.15-15.40.54:309][553]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.12.15-15.41.33:795][123]LogSlate: External Image Picker: DecompressImage failed
+[2024.12.15-15.41.48:595][305]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 706.712952
+[2024.12.15-15.41.48:849][330]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.15-15.41.48:849][330]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 706.957642, Update Interval: 310.408020
+[2024.12.15-15.42.05:109][902]LogStreaming: Display: FlushAsyncLoading(339): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:109][902]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode (0xF232E52A3A06114A) - The package to load does not exist on disk or in the loader
+[2024.12.15-15.42.05:109][902]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2024.12.15-15.42.05:131][903]LogStreaming: Display: FlushAsyncLoading(341): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:141][904]LogStreaming: Display: FlushAsyncLoading(342): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:151][905]LogStreaming: Display: FlushAsyncLoading(344): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:161][906]LogStreaming: Display: FlushAsyncLoading(345): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:170][907]LogStreaming: Display: FlushAsyncLoading(346): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:181][908]LogStreaming: Display: FlushAsyncLoading(347): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:190][909]LogStreaming: Display: FlushAsyncLoading(348): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:201][910]LogStreaming: Display: FlushAsyncLoading(349): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:211][911]LogStreaming: Display: FlushAsyncLoading(350): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:221][912]LogStreaming: Display: FlushAsyncLoading(351): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:230][913]LogStreaming: Display: FlushAsyncLoading(352): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:241][914]LogStreaming: Display: FlushAsyncLoading(353): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:253][915]LogStreaming: Display: FlushAsyncLoading(354): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:262][916]LogStreaming: Display: FlushAsyncLoading(355): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:274][917]LogStreaming: Display: FlushAsyncLoading(356): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:286][918]LogStreaming: Display: FlushAsyncLoading(357): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:297][919]LogStreaming: Display: FlushAsyncLoading(358): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:308][920]LogStreaming: Display: FlushAsyncLoading(359): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:319][921]LogStreaming: Display: FlushAsyncLoading(360): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:329][922]LogStreaming: Display: FlushAsyncLoading(361): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:340][923]LogStreaming: Display: FlushAsyncLoading(362): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:351][924]LogStreaming: Display: FlushAsyncLoading(363): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:361][925]LogStreaming: Display: FlushAsyncLoading(364): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:371][926]LogStreaming: Display: FlushAsyncLoading(365): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:382][927]LogStreaming: Display: FlushAsyncLoading(366): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:393][928]LogStreaming: Display: FlushAsyncLoading(367): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:403][929]LogStreaming: Display: FlushAsyncLoading(368): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:414][930]LogStreaming: Display: FlushAsyncLoading(369): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:424][931]LogStreaming: Display: FlushAsyncLoading(370): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:434][932]LogStreaming: Display: FlushAsyncLoading(371): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:445][933]LogStreaming: Display: FlushAsyncLoading(372): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:455][934]LogStreaming: Display: FlushAsyncLoading(373): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:465][935]LogStreaming: Display: FlushAsyncLoading(374): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:475][936]LogStreaming: Display: FlushAsyncLoading(375): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:485][937]LogStreaming: Display: FlushAsyncLoading(376): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:495][938]LogStreaming: Display: FlushAsyncLoading(377): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:506][939]LogStreaming: Display: FlushAsyncLoading(378): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:516][940]LogStreaming: Display: FlushAsyncLoading(379): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:526][941]LogStreaming: Display: FlushAsyncLoading(380): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:537][942]LogStreaming: Display: FlushAsyncLoading(381): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:547][943]LogStreaming: Display: FlushAsyncLoading(382): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:557][944]LogStreaming: Display: FlushAsyncLoading(383): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:567][945]LogStreaming: Display: FlushAsyncLoading(384): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:577][946]LogStreaming: Display: FlushAsyncLoading(385): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:587][947]LogStreaming: Display: FlushAsyncLoading(386): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:598][948]LogStreaming: Display: FlushAsyncLoading(387): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:610][949]LogStreaming: Display: FlushAsyncLoading(388): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:620][950]LogStreaming: Display: FlushAsyncLoading(389): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:631][951]LogStreaming: Display: FlushAsyncLoading(390): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:641][952]LogStreaming: Display: FlushAsyncLoading(391): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:652][953]LogStreaming: Display: FlushAsyncLoading(392): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:661][954]LogStreaming: Display: FlushAsyncLoading(393): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:681][955]LogStreaming: Display: FlushAsyncLoading(394): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:692][956]LogStreaming: Display: FlushAsyncLoading(395): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:702][957]LogStreaming: Display: FlushAsyncLoading(396): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:715][958]LogStreaming: Display: FlushAsyncLoading(397): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:726][959]LogStreaming: Display: FlushAsyncLoading(398): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:739][960]LogStreaming: Display: FlushAsyncLoading(399): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:751][961]LogStreaming: Display: FlushAsyncLoading(400): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:762][962]LogStreaming: Display: FlushAsyncLoading(401): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:772][963]LogStreaming: Display: FlushAsyncLoading(402): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:783][964]LogStreaming: Display: FlushAsyncLoading(403): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:793][965]LogStreaming: Display: FlushAsyncLoading(404): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:805][966]LogStreaming: Display: FlushAsyncLoading(405): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:816][967]LogStreaming: Display: FlushAsyncLoading(406): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:826][968]LogStreaming: Display: FlushAsyncLoading(407): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:837][969]LogStreaming: Display: FlushAsyncLoading(408): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:847][970]LogStreaming: Display: FlushAsyncLoading(409): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:858][971]LogStreaming: Display: FlushAsyncLoading(410): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:869][972]LogStreaming: Display: FlushAsyncLoading(411): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:881][973]LogStreaming: Display: FlushAsyncLoading(412): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:892][974]LogStreaming: Display: FlushAsyncLoading(413): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:905][975]LogStreaming: Display: FlushAsyncLoading(414): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:916][976]LogStreaming: Display: FlushAsyncLoading(415): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:927][977]LogStreaming: Display: FlushAsyncLoading(416): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:939][978]LogStreaming: Display: FlushAsyncLoading(417): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:950][979]LogStreaming: Display: FlushAsyncLoading(418): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:961][980]LogStreaming: Display: FlushAsyncLoading(419): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:970][981]LogStreaming: Display: FlushAsyncLoading(420): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:981][982]LogStreaming: Display: FlushAsyncLoading(421): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.05:992][983]LogStreaming: Display: FlushAsyncLoading(422): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:002][984]LogStreaming: Display: FlushAsyncLoading(423): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:012][985]LogStreaming: Display: FlushAsyncLoading(424): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:023][986]LogStreaming: Display: FlushAsyncLoading(425): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:032][987]LogStreaming: Display: FlushAsyncLoading(426): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:043][988]LogStreaming: Display: FlushAsyncLoading(427): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:055][989]LogStreaming: Display: FlushAsyncLoading(428): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:065][990]LogStreaming: Display: FlushAsyncLoading(429): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:074][991]LogStreaming: Display: FlushAsyncLoading(430): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:084][992]LogStreaming: Display: FlushAsyncLoading(431): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:094][993]LogStreaming: Display: FlushAsyncLoading(432): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:104][994]LogStreaming: Display: FlushAsyncLoading(433): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:112][995]LogStreaming: Display: FlushAsyncLoading(434): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:124][996]LogStreaming: Display: FlushAsyncLoading(435): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:135][997]LogStreaming: Display: FlushAsyncLoading(436): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:145][998]LogStreaming: Display: FlushAsyncLoading(437): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:156][999]LogStreaming: Display: FlushAsyncLoading(438): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:167][  0]LogStreaming: Display: FlushAsyncLoading(439): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:177][  1]LogStreaming: Display: FlushAsyncLoading(440): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:188][  2]LogStreaming: Display: FlushAsyncLoading(441): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:198][  3]LogStreaming: Display: FlushAsyncLoading(442): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:207][  4]LogStreaming: Display: FlushAsyncLoading(443): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:218][  5]LogStreaming: Display: FlushAsyncLoading(444): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:228][  6]LogStreaming: Display: FlushAsyncLoading(445): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:239][  7]LogStreaming: Display: FlushAsyncLoading(446): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:249][  8]LogStreaming: Display: FlushAsyncLoading(447): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:259][  9]LogStreaming: Display: FlushAsyncLoading(448): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:269][ 10]LogStreaming: Display: FlushAsyncLoading(449): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:279][ 11]LogStreaming: Display: FlushAsyncLoading(450): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:290][ 12]LogStreaming: Display: FlushAsyncLoading(451): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:301][ 13]LogStreaming: Display: FlushAsyncLoading(452): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:310][ 14]LogStreaming: Display: FlushAsyncLoading(453): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:321][ 15]LogStreaming: Display: FlushAsyncLoading(454): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:330][ 16]LogStreaming: Display: FlushAsyncLoading(455): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:340][ 17]LogStreaming: Display: FlushAsyncLoading(456): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:350][ 18]LogStreaming: Display: FlushAsyncLoading(457): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:359][ 19]LogStreaming: Display: FlushAsyncLoading(458): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:370][ 20]LogStreaming: Display: FlushAsyncLoading(459): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:381][ 21]LogStreaming: Display: FlushAsyncLoading(460): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:395][ 22]LogStreaming: Display: FlushAsyncLoading(461): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:421][ 23]LogStreaming: Display: FlushAsyncLoading(462): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:433][ 24]LogStreaming: Display: FlushAsyncLoading(463): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:444][ 25]LogStreaming: Display: FlushAsyncLoading(464): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:455][ 26]LogStreaming: Display: FlushAsyncLoading(465): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:466][ 27]LogStreaming: Display: FlushAsyncLoading(466): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:477][ 28]LogStreaming: Display: FlushAsyncLoading(467): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:488][ 29]LogStreaming: Display: FlushAsyncLoading(468): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:499][ 30]LogStreaming: Display: FlushAsyncLoading(469): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:510][ 31]LogStreaming: Display: FlushAsyncLoading(470): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:521][ 32]LogStreaming: Display: FlushAsyncLoading(471): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:532][ 33]LogStreaming: Display: FlushAsyncLoading(472): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:542][ 34]LogStreaming: Display: FlushAsyncLoading(473): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:552][ 35]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:564][ 36]LogStreaming: Display: FlushAsyncLoading(475): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:574][ 37]LogStreaming: Display: FlushAsyncLoading(476): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:586][ 38]LogStreaming: Display: FlushAsyncLoading(477): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:597][ 39]LogStreaming: Display: FlushAsyncLoading(478): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:607][ 40]LogStreaming: Display: FlushAsyncLoading(479): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:617][ 41]LogStreaming: Display: FlushAsyncLoading(480): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:628][ 42]LogStreaming: Display: FlushAsyncLoading(481): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:638][ 43]LogStreaming: Display: FlushAsyncLoading(482): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:648][ 44]LogStreaming: Display: FlushAsyncLoading(483): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:658][ 45]LogStreaming: Display: FlushAsyncLoading(484): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:668][ 46]LogStreaming: Display: FlushAsyncLoading(485): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:678][ 47]LogStreaming: Display: FlushAsyncLoading(486): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:688][ 48]LogStreaming: Display: FlushAsyncLoading(487): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:699][ 49]LogStreaming: Display: FlushAsyncLoading(488): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:709][ 50]LogStreaming: Display: FlushAsyncLoading(489): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:720][ 51]LogStreaming: Display: FlushAsyncLoading(490): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:730][ 52]LogStreaming: Display: FlushAsyncLoading(491): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:739][ 53]LogStreaming: Display: FlushAsyncLoading(492): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:749][ 54]LogStreaming: Display: FlushAsyncLoading(493): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:759][ 55]LogStreaming: Display: FlushAsyncLoading(494): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:769][ 56]LogStreaming: Display: FlushAsyncLoading(495): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:778][ 57]LogStreaming: Display: FlushAsyncLoading(496): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:788][ 58]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:798][ 59]LogStreaming: Display: FlushAsyncLoading(498): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:809][ 60]LogStreaming: Display: FlushAsyncLoading(499): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:819][ 61]LogStreaming: Display: FlushAsyncLoading(500): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:829][ 62]LogStreaming: Display: FlushAsyncLoading(501): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:839][ 63]LogStreaming: Display: FlushAsyncLoading(502): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:849][ 64]LogStreaming: Display: FlushAsyncLoading(503): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:859][ 65]LogStreaming: Display: FlushAsyncLoading(504): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:869][ 66]LogStreaming: Display: FlushAsyncLoading(505): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:878][ 67]LogStreaming: Display: FlushAsyncLoading(506): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:889][ 68]LogStreaming: Display: FlushAsyncLoading(507): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:898][ 69]LogStreaming: Display: FlushAsyncLoading(508): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:908][ 70]LogStreaming: Display: FlushAsyncLoading(509): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:919][ 71]LogStreaming: Display: FlushAsyncLoading(510): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:929][ 72]LogStreaming: Display: FlushAsyncLoading(511): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:939][ 73]LogStreaming: Display: FlushAsyncLoading(512): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:949][ 74]LogStreaming: Display: FlushAsyncLoading(513): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:960][ 75]LogStreaming: Display: FlushAsyncLoading(514): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:969][ 76]LogStreaming: Display: FlushAsyncLoading(515): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:980][ 77]LogStreaming: Display: FlushAsyncLoading(516): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.06:991][ 78]LogStreaming: Display: FlushAsyncLoading(517): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:000][ 79]LogStreaming: Display: FlushAsyncLoading(518): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:010][ 80]LogStreaming: Display: FlushAsyncLoading(519): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:021][ 81]LogStreaming: Display: FlushAsyncLoading(520): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:030][ 82]LogStreaming: Display: FlushAsyncLoading(521): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:040][ 83]LogStreaming: Display: FlushAsyncLoading(522): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:050][ 84]LogStreaming: Display: FlushAsyncLoading(523): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:059][ 85]LogStreaming: Display: FlushAsyncLoading(524): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:070][ 86]LogStreaming: Display: FlushAsyncLoading(525): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:080][ 87]LogStreaming: Display: FlushAsyncLoading(526): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:090][ 88]LogStreaming: Display: FlushAsyncLoading(527): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:100][ 89]LogStreaming: Display: FlushAsyncLoading(528): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:110][ 90]LogStreaming: Display: FlushAsyncLoading(529): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:120][ 91]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:130][ 92]LogStreaming: Display: FlushAsyncLoading(531): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:140][ 93]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:150][ 94]LogStreaming: Display: FlushAsyncLoading(533): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:160][ 95]LogStreaming: Display: FlushAsyncLoading(534): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:170][ 96]LogStreaming: Display: FlushAsyncLoading(535): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:180][ 97]LogStreaming: Display: FlushAsyncLoading(536): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:192][ 98]LogStreaming: Display: FlushAsyncLoading(537): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:202][ 99]LogStreaming: Display: FlushAsyncLoading(538): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:212][100]LogStreaming: Display: FlushAsyncLoading(539): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:223][101]LogStreaming: Display: FlushAsyncLoading(540): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:233][102]LogStreaming: Display: FlushAsyncLoading(541): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:243][103]LogStreaming: Display: FlushAsyncLoading(542): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:254][104]LogStreaming: Display: FlushAsyncLoading(543): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:264][105]LogStreaming: Display: FlushAsyncLoading(544): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:299][106]LogStreaming: Display: FlushAsyncLoading(545): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:330][106]LogSlate: Took 0.000065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.15-15.42.07:346][107]LogStreaming: Display: FlushAsyncLoading(546): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:358][108]LogStreaming: Display: FlushAsyncLoading(547): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:371][109]LogStreaming: Display: FlushAsyncLoading(548): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:382][110]LogStreaming: Display: FlushAsyncLoading(549): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:393][111]LogStreaming: Display: FlushAsyncLoading(550): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:404][112]LogStreaming: Display: FlushAsyncLoading(551): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:417][113]LogStreaming: Display: FlushAsyncLoading(552): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:428][114]LogStreaming: Display: FlushAsyncLoading(553): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:439][115]LogStreaming: Display: FlushAsyncLoading(554): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:449][116]LogStreaming: Display: FlushAsyncLoading(555): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:460][117]LogStreaming: Display: FlushAsyncLoading(556): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:471][118]LogStreaming: Display: FlushAsyncLoading(557): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:482][119]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:493][120]LogStreaming: Display: FlushAsyncLoading(559): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:504][121]LogStreaming: Display: FlushAsyncLoading(560): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:516][122]LogStreaming: Display: FlushAsyncLoading(561): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:527][123]LogStreaming: Display: FlushAsyncLoading(562): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:538][124]LogStreaming: Display: FlushAsyncLoading(563): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:549][125]LogStreaming: Display: FlushAsyncLoading(564): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:561][126]LogStreaming: Display: FlushAsyncLoading(565): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:572][127]LogStreaming: Display: FlushAsyncLoading(566): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:585][128]LogStreaming: Display: FlushAsyncLoading(567): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:597][129]LogStreaming: Display: FlushAsyncLoading(568): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:608][130]LogStreaming: Display: FlushAsyncLoading(569): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:620][131]LogStreaming: Display: FlushAsyncLoading(570): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:631][132]LogStreaming: Display: FlushAsyncLoading(571): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:642][133]LogStreaming: Display: FlushAsyncLoading(572): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:653][134]LogStreaming: Display: FlushAsyncLoading(573): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:664][135]LogStreaming: Display: FlushAsyncLoading(574): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:675][136]LogStreaming: Display: FlushAsyncLoading(575): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:685][137]LogStreaming: Display: FlushAsyncLoading(576): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:696][138]LogStreaming: Display: FlushAsyncLoading(577): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:707][139]LogStreaming: Display: FlushAsyncLoading(578): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:718][140]LogStreaming: Display: FlushAsyncLoading(579): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:728][141]LogStreaming: Display: FlushAsyncLoading(580): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:738][142]LogStreaming: Display: FlushAsyncLoading(581): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:749][143]LogStreaming: Display: FlushAsyncLoading(582): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:760][144]LogStreaming: Display: FlushAsyncLoading(583): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:772][145]LogStreaming: Display: FlushAsyncLoading(584): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:783][146]LogStreaming: Display: FlushAsyncLoading(585): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:794][147]LogStreaming: Display: FlushAsyncLoading(586): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:804][148]LogStreaming: Display: FlushAsyncLoading(587): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:815][149]LogStreaming: Display: FlushAsyncLoading(588): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:826][150]LogStreaming: Display: FlushAsyncLoading(589): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:836][151]LogStreaming: Display: FlushAsyncLoading(590): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:846][152]LogStreaming: Display: FlushAsyncLoading(591): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:858][153]LogStreaming: Display: FlushAsyncLoading(592): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:869][154]LogStreaming: Display: FlushAsyncLoading(593): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:881][155]LogStreaming: Display: FlushAsyncLoading(594): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:891][156]LogStreaming: Display: FlushAsyncLoading(595): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:902][157]LogStreaming: Display: FlushAsyncLoading(596): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:915][158]LogStreaming: Display: FlushAsyncLoading(597): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:927][159]LogStreaming: Display: FlushAsyncLoading(598): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:938][160]LogStreaming: Display: FlushAsyncLoading(599): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:949][161]LogStreaming: Display: FlushAsyncLoading(600): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:958][162]LogStreaming: Display: FlushAsyncLoading(601): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:969][163]LogStreaming: Display: FlushAsyncLoading(602): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:981][164]LogStreaming: Display: FlushAsyncLoading(603): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.07:992][165]LogStreaming: Display: FlushAsyncLoading(604): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:005][166]LogStreaming: Display: FlushAsyncLoading(605): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:018][167]LogStreaming: Display: FlushAsyncLoading(606): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:028][168]LogStreaming: Display: FlushAsyncLoading(607): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:039][169]LogStreaming: Display: FlushAsyncLoading(608): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:050][170]LogStreaming: Display: FlushAsyncLoading(609): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:061][171]LogStreaming: Display: FlushAsyncLoading(610): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:071][172]LogStreaming: Display: FlushAsyncLoading(611): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:083][173]LogStreaming: Display: FlushAsyncLoading(612): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:095][174]LogStreaming: Display: FlushAsyncLoading(613): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:106][175]LogStreaming: Display: FlushAsyncLoading(614): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:118][176]LogStreaming: Display: FlushAsyncLoading(615): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:131][177]LogStreaming: Display: FlushAsyncLoading(616): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:143][178]LogStreaming: Display: FlushAsyncLoading(617): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:155][179]LogStreaming: Display: FlushAsyncLoading(618): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:167][180]LogStreaming: Display: FlushAsyncLoading(619): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:178][181]LogStreaming: Display: FlushAsyncLoading(620): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:189][182]LogStreaming: Display: FlushAsyncLoading(621): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:201][183]LogStreaming: Display: FlushAsyncLoading(622): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:213][184]LogStreaming: Display: FlushAsyncLoading(623): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:227][185]LogStreaming: Display: FlushAsyncLoading(624): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:238][186]LogStreaming: Display: FlushAsyncLoading(625): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:249][187]LogStreaming: Display: FlushAsyncLoading(626): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:261][188]LogStreaming: Display: FlushAsyncLoading(627): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:272][189]LogStreaming: Display: FlushAsyncLoading(628): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:283][190]LogStreaming: Display: FlushAsyncLoading(629): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:295][191]LogStreaming: Display: FlushAsyncLoading(630): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:306][192]LogStreaming: Display: FlushAsyncLoading(631): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:318][193]LogStreaming: Display: FlushAsyncLoading(632): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:330][194]LogStreaming: Display: FlushAsyncLoading(633): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:343][195]LogStreaming: Display: FlushAsyncLoading(634): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:354][196]LogStreaming: Display: FlushAsyncLoading(635): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:366][197]LogStreaming: Display: FlushAsyncLoading(636): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:376][198]LogStreaming: Display: FlushAsyncLoading(637): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:388][199]LogStreaming: Display: FlushAsyncLoading(638): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:399][200]LogStreaming: Display: FlushAsyncLoading(639): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:410][201]LogStreaming: Display: FlushAsyncLoading(640): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:422][202]LogStreaming: Display: FlushAsyncLoading(641): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:432][203]LogStreaming: Display: FlushAsyncLoading(642): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:444][204]LogStreaming: Display: FlushAsyncLoading(643): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:455][205]LogStreaming: Display: FlushAsyncLoading(644): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:466][206]LogStreaming: Display: FlushAsyncLoading(645): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:477][207]LogStreaming: Display: FlushAsyncLoading(646): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:488][208]LogStreaming: Display: FlushAsyncLoading(647): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:499][209]LogStreaming: Display: FlushAsyncLoading(648): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:510][210]LogStreaming: Display: FlushAsyncLoading(649): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:523][211]LogStreaming: Display: FlushAsyncLoading(650): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:534][212]LogStreaming: Display: FlushAsyncLoading(651): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:547][213]LogStreaming: Display: FlushAsyncLoading(652): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:558][214]LogStreaming: Display: FlushAsyncLoading(653): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:569][215]LogStreaming: Display: FlushAsyncLoading(654): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:581][216]LogStreaming: Display: FlushAsyncLoading(655): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:594][217]LogStreaming: Display: FlushAsyncLoading(656): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:605][218]LogStreaming: Display: FlushAsyncLoading(657): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:618][219]LogStreaming: Display: FlushAsyncLoading(658): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:630][220]LogStreaming: Display: FlushAsyncLoading(659): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:642][221]LogStreaming: Display: FlushAsyncLoading(660): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:655][222]LogStreaming: Display: FlushAsyncLoading(661): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:668][223]LogStreaming: Display: FlushAsyncLoading(662): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:680][224]LogStreaming: Display: FlushAsyncLoading(663): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:692][225]LogStreaming: Display: FlushAsyncLoading(664): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:702][226]LogStreaming: Display: FlushAsyncLoading(665): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:714][227]LogStreaming: Display: FlushAsyncLoading(666): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:726][228]LogStreaming: Display: FlushAsyncLoading(667): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:738][229]LogStreaming: Display: FlushAsyncLoading(668): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:749][230]LogStreaming: Display: FlushAsyncLoading(669): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:761][231]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:772][232]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:784][233]LogStreaming: Display: FlushAsyncLoading(672): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:796][234]LogStreaming: Display: FlushAsyncLoading(673): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:810][235]LogStreaming: Display: FlushAsyncLoading(674): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:822][236]LogStreaming: Display: FlushAsyncLoading(675): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:834][237]LogStreaming: Display: FlushAsyncLoading(676): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:844][238]LogStreaming: Display: FlushAsyncLoading(677): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:856][239]LogStreaming: Display: FlushAsyncLoading(678): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:867][240]LogStreaming: Display: FlushAsyncLoading(679): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:889][241]LogStreaming: Display: FlushAsyncLoading(680): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:924][242]LogStreaming: Display: FlushAsyncLoading(681): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:936][243]LogStreaming: Display: FlushAsyncLoading(682): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:947][244]LogStreaming: Display: FlushAsyncLoading(683): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:958][245]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:968][246]LogStreaming: Display: FlushAsyncLoading(685): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:979][247]LogStreaming: Display: FlushAsyncLoading(686): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.08:990][248]LogStreaming: Display: FlushAsyncLoading(687): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:001][249]LogStreaming: Display: FlushAsyncLoading(688): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:012][250]LogStreaming: Display: FlushAsyncLoading(689): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:024][251]LogStreaming: Display: FlushAsyncLoading(690): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:034][252]LogStreaming: Display: FlushAsyncLoading(691): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:046][253]LogStreaming: Display: FlushAsyncLoading(692): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:058][254]LogStreaming: Display: FlushAsyncLoading(693): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:070][255]LogStreaming: Display: FlushAsyncLoading(694): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:080][256]LogStreaming: Display: FlushAsyncLoading(695): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:092][257]LogStreaming: Display: FlushAsyncLoading(696): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:104][258]LogStreaming: Display: FlushAsyncLoading(697): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:115][259]LogStreaming: Display: FlushAsyncLoading(698): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:126][260]LogStreaming: Display: FlushAsyncLoading(699): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:136][261]LogStreaming: Display: FlushAsyncLoading(700): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:147][262]LogStreaming: Display: FlushAsyncLoading(701): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:157][263]LogStreaming: Display: FlushAsyncLoading(702): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:169][264]LogStreaming: Display: FlushAsyncLoading(703): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:180][265]LogStreaming: Display: FlushAsyncLoading(704): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:190][266]LogStreaming: Display: FlushAsyncLoading(705): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:201][267]LogStreaming: Display: FlushAsyncLoading(706): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:213][268]LogStreaming: Display: FlushAsyncLoading(707): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:224][269]LogStreaming: Display: FlushAsyncLoading(708): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:234][270]LogStreaming: Display: FlushAsyncLoading(709): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:245][271]LogStreaming: Display: FlushAsyncLoading(710): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:256][272]LogStreaming: Display: FlushAsyncLoading(711): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:267][273]LogStreaming: Display: FlushAsyncLoading(712): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:277][274]LogStreaming: Display: FlushAsyncLoading(713): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:288][275]LogStreaming: Display: FlushAsyncLoading(714): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:299][276]LogStreaming: Display: FlushAsyncLoading(715): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:309][277]LogStreaming: Display: FlushAsyncLoading(716): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:321][278]LogStreaming: Display: FlushAsyncLoading(717): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:332][279]LogStreaming: Display: FlushAsyncLoading(718): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:344][280]LogStreaming: Display: FlushAsyncLoading(719): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:355][281]LogStreaming: Display: FlushAsyncLoading(720): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:366][282]LogStreaming: Display: FlushAsyncLoading(721): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:377][283]LogStreaming: Display: FlushAsyncLoading(722): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:389][284]LogStreaming: Display: FlushAsyncLoading(723): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:401][285]LogStreaming: Display: FlushAsyncLoading(724): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:414][286]LogStreaming: Display: FlushAsyncLoading(725): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:427][287]LogStreaming: Display: FlushAsyncLoading(726): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:438][288]LogStreaming: Display: FlushAsyncLoading(727): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:451][289]LogStreaming: Display: FlushAsyncLoading(728): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:464][290]LogStreaming: Display: FlushAsyncLoading(729): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:477][291]LogStreaming: Display: FlushAsyncLoading(730): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:490][292]LogStreaming: Display: FlushAsyncLoading(731): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:502][293]LogStreaming: Display: FlushAsyncLoading(732): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:514][294]LogStreaming: Display: FlushAsyncLoading(733): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:529][295]LogStreaming: Display: FlushAsyncLoading(734): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:540][296]LogStreaming: Display: FlushAsyncLoading(735): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:552][297]LogStreaming: Display: FlushAsyncLoading(736): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:566][298]LogStreaming: Display: FlushAsyncLoading(737): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:588][299]LogStreaming: Display: FlushAsyncLoading(738): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:598][300]LogStreaming: Display: FlushAsyncLoading(739): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:608][301]LogStreaming: Display: FlushAsyncLoading(740): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:619][302]LogStreaming: Display: FlushAsyncLoading(741): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:631][303]LogStreaming: Display: FlushAsyncLoading(742): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:641][304]LogStreaming: Display: FlushAsyncLoading(743): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:652][305]LogStreaming: Display: FlushAsyncLoading(744): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:662][306]LogStreaming: Display: FlushAsyncLoading(745): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:672][307]LogStreaming: Display: FlushAsyncLoading(746): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:682][308]LogStreaming: Display: FlushAsyncLoading(747): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:693][309]LogStreaming: Display: FlushAsyncLoading(748): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:704][310]LogStreaming: Display: FlushAsyncLoading(749): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:715][311]LogStreaming: Display: FlushAsyncLoading(750): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:727][312]LogStreaming: Display: FlushAsyncLoading(751): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:741][313]LogStreaming: Display: FlushAsyncLoading(752): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:752][314]LogStreaming: Display: FlushAsyncLoading(753): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:764][315]LogStreaming: Display: FlushAsyncLoading(754): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:774][316]LogStreaming: Display: FlushAsyncLoading(755): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:787][317]LogStreaming: Display: FlushAsyncLoading(756): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:799][318]LogStreaming: Display: FlushAsyncLoading(757): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:810][319]LogStreaming: Display: FlushAsyncLoading(758): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:822][320]LogStreaming: Display: FlushAsyncLoading(759): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:832][321]LogStreaming: Display: FlushAsyncLoading(760): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:869][322]LogStreaming: Display: FlushAsyncLoading(761): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:882][323]LogStreaming: Display: FlushAsyncLoading(762): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:892][324]LogStreaming: Display: FlushAsyncLoading(763): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:903][325]LogStreaming: Display: FlushAsyncLoading(764): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:914][326]LogStreaming: Display: FlushAsyncLoading(765): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:925][327]LogStreaming: Display: FlushAsyncLoading(766): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:936][328]LogStreaming: Display: FlushAsyncLoading(767): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:947][329]LogStreaming: Display: FlushAsyncLoading(768): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:958][330]LogStreaming: Display: FlushAsyncLoading(769): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:968][331]LogStreaming: Display: FlushAsyncLoading(770): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:979][332]LogStreaming: Display: FlushAsyncLoading(771): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.09:990][333]LogStreaming: Display: FlushAsyncLoading(772): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:002][334]LogStreaming: Display: FlushAsyncLoading(773): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:012][335]LogStreaming: Display: FlushAsyncLoading(774): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:022][336]LogStreaming: Display: FlushAsyncLoading(775): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:034][337]LogStreaming: Display: FlushAsyncLoading(776): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:044][338]LogStreaming: Display: FlushAsyncLoading(777): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:055][339]LogStreaming: Display: FlushAsyncLoading(778): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:065][340]LogStreaming: Display: FlushAsyncLoading(779): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:076][341]LogStreaming: Display: FlushAsyncLoading(780): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:087][342]LogStreaming: Display: FlushAsyncLoading(781): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:099][343]LogStreaming: Display: FlushAsyncLoading(782): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:109][344]LogStreaming: Display: FlushAsyncLoading(783): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:120][345]LogStreaming: Display: FlushAsyncLoading(784): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:131][346]LogStreaming: Display: FlushAsyncLoading(785): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:141][347]LogStreaming: Display: FlushAsyncLoading(786): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:151][348]LogStreaming: Display: FlushAsyncLoading(787): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:160][349]LogStreaming: Display: FlushAsyncLoading(788): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:171][350]LogStreaming: Display: FlushAsyncLoading(789): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:181][351]LogStreaming: Display: FlushAsyncLoading(790): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:192][352]LogStreaming: Display: FlushAsyncLoading(791): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:203][353]LogStreaming: Display: FlushAsyncLoading(792): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:213][354]LogStreaming: Display: FlushAsyncLoading(793): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:223][355]LogStreaming: Display: FlushAsyncLoading(794): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:234][356]LogStreaming: Display: FlushAsyncLoading(795): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:246][357]LogStreaming: Display: FlushAsyncLoading(796): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:256][358]LogStreaming: Display: FlushAsyncLoading(797): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:266][359]LogStreaming: Display: FlushAsyncLoading(798): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:276][360]LogStreaming: Display: FlushAsyncLoading(799): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:287][361]LogStreaming: Display: FlushAsyncLoading(800): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:297][362]LogStreaming: Display: FlushAsyncLoading(801): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:309][363]LogStreaming: Display: FlushAsyncLoading(802): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:321][364]LogStreaming: Display: FlushAsyncLoading(803): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:332][365]LogStreaming: Display: FlushAsyncLoading(804): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:342][366]LogStreaming: Display: FlushAsyncLoading(805): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:354][367]LogStreaming: Display: FlushAsyncLoading(806): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:365][368]LogStreaming: Display: FlushAsyncLoading(807): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:376][369]LogStreaming: Display: FlushAsyncLoading(808): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:387][370]LogStreaming: Display: FlushAsyncLoading(809): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:398][371]LogStreaming: Display: FlushAsyncLoading(810): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:408][372]LogStreaming: Display: FlushAsyncLoading(811): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:418][373]LogStreaming: Display: FlushAsyncLoading(812): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:429][374]LogStreaming: Display: FlushAsyncLoading(813): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:440][375]LogStreaming: Display: FlushAsyncLoading(814): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:453][376]LogStreaming: Display: FlushAsyncLoading(815): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:464][377]LogStreaming: Display: FlushAsyncLoading(816): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:473][378]LogStreaming: Display: FlushAsyncLoading(817): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:484][379]LogStreaming: Display: FlushAsyncLoading(818): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:494][380]LogStreaming: Display: FlushAsyncLoading(819): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:505][381]LogStreaming: Display: FlushAsyncLoading(820): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:515][382]LogStreaming: Display: FlushAsyncLoading(821): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:525][383]LogStreaming: Display: FlushAsyncLoading(822): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:536][384]LogStreaming: Display: FlushAsyncLoading(823): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:546][385]LogStreaming: Display: FlushAsyncLoading(824): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:557][386]LogStreaming: Display: FlushAsyncLoading(825): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:568][387]LogStreaming: Display: FlushAsyncLoading(826): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:577][388]LogStreaming: Display: FlushAsyncLoading(827): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:588][389]LogStreaming: Display: FlushAsyncLoading(828): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:600][390]LogStreaming: Display: FlushAsyncLoading(829): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:611][391]LogStreaming: Display: FlushAsyncLoading(830): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:623][392]LogStreaming: Display: FlushAsyncLoading(831): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:633][393]LogStreaming: Display: FlushAsyncLoading(832): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:644][394]LogStreaming: Display: FlushAsyncLoading(833): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:655][395]LogStreaming: Display: FlushAsyncLoading(834): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:666][396]LogStreaming: Display: FlushAsyncLoading(835): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:676][397]LogStreaming: Display: FlushAsyncLoading(836): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:687][398]LogStreaming: Display: FlushAsyncLoading(837): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:698][399]LogStreaming: Display: FlushAsyncLoading(838): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:708][400]LogStreaming: Display: FlushAsyncLoading(839): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:719][401]LogStreaming: Display: FlushAsyncLoading(840): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:728][402]LogStreaming: Display: FlushAsyncLoading(841): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:738][403]LogStreaming: Display: FlushAsyncLoading(842): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:748][404]LogStreaming: Display: FlushAsyncLoading(843): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:758][405]LogStreaming: Display: FlushAsyncLoading(844): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:784][406]LogStreaming: Display: FlushAsyncLoading(845): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:826][407]LogStreaming: Display: FlushAsyncLoading(846): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:838][408]LogStreaming: Display: FlushAsyncLoading(847): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:850][409]LogStreaming: Display: FlushAsyncLoading(848): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:864][410]LogStreaming: Display: FlushAsyncLoading(849): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:875][411]LogStreaming: Display: FlushAsyncLoading(850): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:886][412]LogStreaming: Display: FlushAsyncLoading(851): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:897][413]LogStreaming: Display: FlushAsyncLoading(852): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:908][414]LogStreaming: Display: FlushAsyncLoading(853): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:921][415]LogStreaming: Display: FlushAsyncLoading(854): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:932][416]LogStreaming: Display: FlushAsyncLoading(855): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:945][417]LogStreaming: Display: FlushAsyncLoading(856): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:956][418]LogStreaming: Display: FlushAsyncLoading(857): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:967][419]LogStreaming: Display: FlushAsyncLoading(858): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:978][420]LogStreaming: Display: FlushAsyncLoading(859): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.10:990][421]LogStreaming: Display: FlushAsyncLoading(860): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:002][422]LogStreaming: Display: FlushAsyncLoading(861): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:014][423]LogStreaming: Display: FlushAsyncLoading(862): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:026][424]LogStreaming: Display: FlushAsyncLoading(863): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:038][425]LogStreaming: Display: FlushAsyncLoading(864): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:050][426]LogStreaming: Display: FlushAsyncLoading(865): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:061][427]LogStreaming: Display: FlushAsyncLoading(866): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:072][428]LogStreaming: Display: FlushAsyncLoading(867): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:084][429]LogStreaming: Display: FlushAsyncLoading(868): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:095][430]LogStreaming: Display: FlushAsyncLoading(869): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:108][431]LogStreaming: Display: FlushAsyncLoading(870): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:119][432]LogStreaming: Display: FlushAsyncLoading(871): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:129][433]LogStreaming: Display: FlushAsyncLoading(872): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:141][434]LogStreaming: Display: FlushAsyncLoading(873): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:153][435]LogStreaming: Display: FlushAsyncLoading(874): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:164][436]LogStreaming: Display: FlushAsyncLoading(875): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:176][437]LogStreaming: Display: FlushAsyncLoading(876): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:188][438]LogStreaming: Display: FlushAsyncLoading(877): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:200][439]LogStreaming: Display: FlushAsyncLoading(878): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:212][440]LogStreaming: Display: FlushAsyncLoading(879): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:226][441]LogStreaming: Display: FlushAsyncLoading(880): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:238][442]LogStreaming: Display: FlushAsyncLoading(881): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:251][443]LogStreaming: Display: FlushAsyncLoading(882): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:262][444]LogStreaming: Display: FlushAsyncLoading(883): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:274][445]LogStreaming: Display: FlushAsyncLoading(884): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:285][446]LogStreaming: Display: FlushAsyncLoading(885): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:297][447]LogStreaming: Display: FlushAsyncLoading(886): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:307][448]LogStreaming: Display: FlushAsyncLoading(887): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:318][449]LogStreaming: Display: FlushAsyncLoading(888): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:329][450]LogStreaming: Display: FlushAsyncLoading(889): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:340][451]LogStreaming: Display: FlushAsyncLoading(890): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:352][452]LogStreaming: Display: FlushAsyncLoading(891): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:363][453]LogStreaming: Display: FlushAsyncLoading(892): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:374][454]LogStreaming: Display: FlushAsyncLoading(893): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:384][455]LogStreaming: Display: FlushAsyncLoading(894): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:396][456]LogStreaming: Display: FlushAsyncLoading(895): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:406][457]LogStreaming: Display: FlushAsyncLoading(896): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:417][458]LogStreaming: Display: FlushAsyncLoading(897): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:427][459]LogStreaming: Display: FlushAsyncLoading(898): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:438][460]LogStreaming: Display: FlushAsyncLoading(899): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:450][461]LogStreaming: Display: FlushAsyncLoading(900): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:464][462]LogStreaming: Display: FlushAsyncLoading(901): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:488][463]LogStreaming: Display: FlushAsyncLoading(902): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:499][464]LogStreaming: Display: FlushAsyncLoading(903): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:511][465]LogStreaming: Display: FlushAsyncLoading(904): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:522][466]LogStreaming: Display: FlushAsyncLoading(905): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:536][467]LogStreaming: Display: FlushAsyncLoading(906): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:548][468]LogStreaming: Display: FlushAsyncLoading(907): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:559][469]LogStreaming: Display: FlushAsyncLoading(908): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:572][470]LogStreaming: Display: FlushAsyncLoading(909): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:584][471]LogStreaming: Display: FlushAsyncLoading(910): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:596][472]LogStreaming: Display: FlushAsyncLoading(911): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:607][473]LogStreaming: Display: FlushAsyncLoading(912): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:620][474]LogStreaming: Display: FlushAsyncLoading(913): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:634][475]LogStreaming: Display: FlushAsyncLoading(914): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:653][476]LogStreaming: Display: FlushAsyncLoading(915): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:664][477]LogStreaming: Display: FlushAsyncLoading(916): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:674][478]LogStreaming: Display: FlushAsyncLoading(917): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:685][479]LogStreaming: Display: FlushAsyncLoading(918): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:696][480]LogStreaming: Display: FlushAsyncLoading(919): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:707][481]LogStreaming: Display: FlushAsyncLoading(920): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:719][482]LogStreaming: Display: FlushAsyncLoading(921): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:729][483]LogStreaming: Display: FlushAsyncLoading(922): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:741][484]LogStreaming: Display: FlushAsyncLoading(923): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:751][485]LogStreaming: Display: FlushAsyncLoading(924): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:762][486]LogStreaming: Display: FlushAsyncLoading(925): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:772][487]LogStreaming: Display: FlushAsyncLoading(926): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:785][488]LogStreaming: Display: FlushAsyncLoading(927): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:796][489]LogStreaming: Display: FlushAsyncLoading(928): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:808][490]LogStreaming: Display: FlushAsyncLoading(929): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:819][491]LogStreaming: Display: FlushAsyncLoading(930): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:831][492]LogStreaming: Display: FlushAsyncLoading(931): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:842][493]LogStreaming: Display: FlushAsyncLoading(932): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:856][494]LogStreaming: Display: FlushAsyncLoading(933): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:866][495]LogStreaming: Display: FlushAsyncLoading(934): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:876][496]LogStreaming: Display: FlushAsyncLoading(935): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:887][497]LogStreaming: Display: FlushAsyncLoading(936): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:898][498]LogStreaming: Display: FlushAsyncLoading(937): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:908][499]LogStreaming: Display: FlushAsyncLoading(938): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:920][500]LogStreaming: Display: FlushAsyncLoading(939): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:932][501]LogStreaming: Display: FlushAsyncLoading(940): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:943][502]LogStreaming: Display: FlushAsyncLoading(941): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:956][503]LogStreaming: Display: FlushAsyncLoading(942): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:967][504]LogStreaming: Display: FlushAsyncLoading(943): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:977][505]LogStreaming: Display: FlushAsyncLoading(944): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:988][506]LogStreaming: Display: FlushAsyncLoading(945): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.11:999][507]LogStreaming: Display: FlushAsyncLoading(946): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:008][508]LogStreaming: Display: FlushAsyncLoading(947): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:019][509]LogStreaming: Display: FlushAsyncLoading(948): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:030][510]LogStreaming: Display: FlushAsyncLoading(949): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:040][511]LogStreaming: Display: FlushAsyncLoading(950): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:051][512]LogStreaming: Display: FlushAsyncLoading(951): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:062][513]LogStreaming: Display: FlushAsyncLoading(952): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:072][514]LogStreaming: Display: FlushAsyncLoading(953): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:084][515]LogStreaming: Display: FlushAsyncLoading(954): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:094][516]LogStreaming: Display: FlushAsyncLoading(955): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:105][517]LogStreaming: Display: FlushAsyncLoading(956): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:115][518]LogStreaming: Display: FlushAsyncLoading(957): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:126][519]LogStreaming: Display: FlushAsyncLoading(958): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:136][520]LogStreaming: Display: FlushAsyncLoading(959): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:147][521]LogStreaming: Display: FlushAsyncLoading(960): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:158][522]LogStreaming: Display: FlushAsyncLoading(961): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:169][523]LogStreaming: Display: FlushAsyncLoading(962): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:179][524]LogStreaming: Display: FlushAsyncLoading(963): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:189][525]LogStreaming: Display: FlushAsyncLoading(964): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:200][526]LogStreaming: Display: FlushAsyncLoading(965): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:210][527]LogStreaming: Display: FlushAsyncLoading(966): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:221][528]LogStreaming: Display: FlushAsyncLoading(967): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:232][529]LogStreaming: Display: FlushAsyncLoading(968): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:247][530]LogStreaming: Display: FlushAsyncLoading(969): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:258][531]LogStreaming: Display: FlushAsyncLoading(970): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:269][532]LogStreaming: Display: FlushAsyncLoading(971): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:280][533]LogStreaming: Display: FlushAsyncLoading(972): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:290][534]LogStreaming: Display: FlushAsyncLoading(973): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:301][535]LogStreaming: Display: FlushAsyncLoading(974): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:312][536]LogStreaming: Display: FlushAsyncLoading(975): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:322][537]LogStreaming: Display: FlushAsyncLoading(976): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:730][538]LogStreaming: Display: FlushAsyncLoading(977): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:740][539]LogStreaming: Display: FlushAsyncLoading(978): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:750][540]LogStreaming: Display: FlushAsyncLoading(979): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:760][541]LogStreaming: Display: FlushAsyncLoading(980): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:771][542]LogStreaming: Display: FlushAsyncLoading(981): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:781][543]LogStreaming: Display: FlushAsyncLoading(982): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:790][544]LogStreaming: Display: FlushAsyncLoading(983): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:800][545]LogStreaming: Display: FlushAsyncLoading(984): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:810][546]LogStreaming: Display: FlushAsyncLoading(985): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:820][547]LogStreaming: Display: FlushAsyncLoading(986): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:829][548]LogStreaming: Display: FlushAsyncLoading(987): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:839][549]LogStreaming: Display: FlushAsyncLoading(988): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:849][550]LogStreaming: Display: FlushAsyncLoading(989): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:859][551]LogStreaming: Display: FlushAsyncLoading(990): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:869][552]LogStreaming: Display: FlushAsyncLoading(991): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:879][553]LogStreaming: Display: FlushAsyncLoading(992): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:889][554]LogStreaming: Display: FlushAsyncLoading(993): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:901][555]LogStreaming: Display: FlushAsyncLoading(994): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:911][556]LogStreaming: Display: FlushAsyncLoading(995): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:921][557]LogStreaming: Display: FlushAsyncLoading(996): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:931][558]LogStreaming: Display: FlushAsyncLoading(997): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:941][559]LogStreaming: Display: FlushAsyncLoading(998): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:952][560]LogStreaming: Display: FlushAsyncLoading(999): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:962][561]LogStreaming: Display: FlushAsyncLoading(1000): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:972][562]LogStreaming: Display: FlushAsyncLoading(1001): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:982][563]LogStreaming: Display: FlushAsyncLoading(1002): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.12:992][564]LogStreaming: Display: FlushAsyncLoading(1003): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:004][565]LogStreaming: Display: FlushAsyncLoading(1004): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:015][566]LogStreaming: Display: FlushAsyncLoading(1005): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:025][567]LogStreaming: Display: FlushAsyncLoading(1006): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:035][568]LogStreaming: Display: FlushAsyncLoading(1007): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:046][569]LogStreaming: Display: FlushAsyncLoading(1008): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:056][570]LogStreaming: Display: FlushAsyncLoading(1009): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:066][571]LogStreaming: Display: FlushAsyncLoading(1010): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:076][572]LogStreaming: Display: FlushAsyncLoading(1011): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:085][573]LogStreaming: Display: FlushAsyncLoading(1012): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:096][574]LogStreaming: Display: FlushAsyncLoading(1013): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:105][575]LogStreaming: Display: FlushAsyncLoading(1014): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:115][576]LogStreaming: Display: FlushAsyncLoading(1015): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:125][577]LogStreaming: Display: FlushAsyncLoading(1016): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:134][578]LogStreaming: Display: FlushAsyncLoading(1017): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:144][579]LogStreaming: Display: FlushAsyncLoading(1018): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:154][580]LogStreaming: Display: FlushAsyncLoading(1019): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:164][581]LogStreaming: Display: FlushAsyncLoading(1020): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:174][582]LogStreaming: Display: FlushAsyncLoading(1021): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:184][583]LogStreaming: Display: FlushAsyncLoading(1022): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:193][584]LogStreaming: Display: FlushAsyncLoading(1023): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:203][585]LogStreaming: Display: FlushAsyncLoading(1024): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:213][586]LogStreaming: Display: FlushAsyncLoading(1025): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:223][587]LogStreaming: Display: FlushAsyncLoading(1026): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:233][588]LogStreaming: Display: FlushAsyncLoading(1027): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:242][589]LogStreaming: Display: FlushAsyncLoading(1028): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:252][590]LogStreaming: Display: FlushAsyncLoading(1029): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:261][591]LogStreaming: Display: FlushAsyncLoading(1030): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:271][592]LogStreaming: Display: FlushAsyncLoading(1031): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:281][593]LogStreaming: Display: FlushAsyncLoading(1032): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:291][594]LogStreaming: Display: FlushAsyncLoading(1033): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:301][595]LogStreaming: Display: FlushAsyncLoading(1034): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:311][596]LogStreaming: Display: FlushAsyncLoading(1035): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:321][597]LogStreaming: Display: FlushAsyncLoading(1036): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:330][598]LogStreaming: Display: FlushAsyncLoading(1037): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:341][599]LogStreaming: Display: FlushAsyncLoading(1038): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:350][600]LogStreaming: Display: FlushAsyncLoading(1039): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:360][601]LogStreaming: Display: FlushAsyncLoading(1040): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:370][602]LogStreaming: Display: FlushAsyncLoading(1041): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:381][603]LogStreaming: Display: FlushAsyncLoading(1042): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:390][604]LogStreaming: Display: FlushAsyncLoading(1043): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:399][605]LogStreaming: Display: FlushAsyncLoading(1044): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:410][606]LogStreaming: Display: FlushAsyncLoading(1045): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:420][607]LogStreaming: Display: FlushAsyncLoading(1046): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:430][608]LogStreaming: Display: FlushAsyncLoading(1047): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:440][609]LogStreaming: Display: FlushAsyncLoading(1048): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:450][610]LogStreaming: Display: FlushAsyncLoading(1049): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:460][611]LogStreaming: Display: FlushAsyncLoading(1050): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:470][612]LogStreaming: Display: FlushAsyncLoading(1051): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:481][613]LogStreaming: Display: FlushAsyncLoading(1052): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:491][614]LogStreaming: Display: FlushAsyncLoading(1053): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:502][615]LogStreaming: Display: FlushAsyncLoading(1054): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:512][616]LogStreaming: Display: FlushAsyncLoading(1055): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:523][617]LogStreaming: Display: FlushAsyncLoading(1056): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:532][618]LogStreaming: Display: FlushAsyncLoading(1057): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:543][619]LogStreaming: Display: FlushAsyncLoading(1058): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:554][620]LogStreaming: Display: FlushAsyncLoading(1059): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:564][621]LogStreaming: Display: FlushAsyncLoading(1060): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:574][622]LogStreaming: Display: FlushAsyncLoading(1061): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:584][623]LogStreaming: Display: FlushAsyncLoading(1062): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:594][624]LogStreaming: Display: FlushAsyncLoading(1063): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:605][625]LogStreaming: Display: FlushAsyncLoading(1064): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:615][626]LogStreaming: Display: FlushAsyncLoading(1065): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:625][627]LogStreaming: Display: FlushAsyncLoading(1066): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:635][628]LogStreaming: Display: FlushAsyncLoading(1067): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:646][629]LogStreaming: Display: FlushAsyncLoading(1068): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:657][630]LogStreaming: Display: FlushAsyncLoading(1069): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:669][631]LogStreaming: Display: FlushAsyncLoading(1070): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:680][632]LogStreaming: Display: FlushAsyncLoading(1071): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:691][633]LogStreaming: Display: FlushAsyncLoading(1072): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:701][634]LogStreaming: Display: FlushAsyncLoading(1073): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:712][635]LogStreaming: Display: FlushAsyncLoading(1074): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:722][636]LogStreaming: Display: FlushAsyncLoading(1075): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:732][637]LogStreaming: Display: FlushAsyncLoading(1076): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:742][638]LogStreaming: Display: FlushAsyncLoading(1077): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:754][639]LogStreaming: Display: FlushAsyncLoading(1078): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:770][640]LogStreaming: Display: FlushAsyncLoading(1079): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:782][641]LogStreaming: Display: FlushAsyncLoading(1080): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:792][642]LogStreaming: Display: FlushAsyncLoading(1081): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:802][643]LogStreaming: Display: FlushAsyncLoading(1082): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:812][644]LogStreaming: Display: FlushAsyncLoading(1083): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:824][645]LogStreaming: Display: FlushAsyncLoading(1084): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:834][646]LogStreaming: Display: FlushAsyncLoading(1085): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:842][647]LogStreaming: Display: FlushAsyncLoading(1086): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:853][648]LogStreaming: Display: FlushAsyncLoading(1087): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:862][649]LogStreaming: Display: FlushAsyncLoading(1088): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:873][650]LogStreaming: Display: FlushAsyncLoading(1089): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:882][651]LogStreaming: Display: FlushAsyncLoading(1090): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:892][652]LogStreaming: Display: FlushAsyncLoading(1091): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:902][653]LogStreaming: Display: FlushAsyncLoading(1092): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:912][654]LogStreaming: Display: FlushAsyncLoading(1093): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:923][655]LogStreaming: Display: FlushAsyncLoading(1094): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:935][656]LogStreaming: Display: FlushAsyncLoading(1095): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:946][657]LogStreaming: Display: FlushAsyncLoading(1096): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:957][658]LogStreaming: Display: FlushAsyncLoading(1097): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:969][659]LogStreaming: Display: FlushAsyncLoading(1098): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:979][660]LogStreaming: Display: FlushAsyncLoading(1099): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.13:990][661]LogStreaming: Display: FlushAsyncLoading(1100): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:000][662]LogStreaming: Display: FlushAsyncLoading(1101): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:012][663]LogStreaming: Display: FlushAsyncLoading(1102): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:022][664]LogStreaming: Display: FlushAsyncLoading(1103): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:033][665]LogStreaming: Display: FlushAsyncLoading(1104): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:042][666]LogStreaming: Display: FlushAsyncLoading(1105): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:054][667]LogStreaming: Display: FlushAsyncLoading(1106): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:064][668]LogStreaming: Display: FlushAsyncLoading(1107): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:075][669]LogStreaming: Display: FlushAsyncLoading(1108): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:084][670]LogStreaming: Display: FlushAsyncLoading(1109): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:095][671]LogStreaming: Display: FlushAsyncLoading(1110): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:105][672]LogStreaming: Display: FlushAsyncLoading(1111): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:115][673]LogStreaming: Display: FlushAsyncLoading(1112): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:125][674]LogStreaming: Display: FlushAsyncLoading(1113): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:135][675]LogStreaming: Display: FlushAsyncLoading(1114): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:146][676]LogStreaming: Display: FlushAsyncLoading(1115): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:157][677]LogStreaming: Display: FlushAsyncLoading(1116): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:168][678]LogStreaming: Display: FlushAsyncLoading(1117): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:178][679]LogStreaming: Display: FlushAsyncLoading(1118): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:189][680]LogStreaming: Display: FlushAsyncLoading(1119): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:199][681]LogStreaming: Display: FlushAsyncLoading(1120): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:209][682]LogStreaming: Display: FlushAsyncLoading(1121): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:219][683]LogStreaming: Display: FlushAsyncLoading(1122): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:230][684]LogStreaming: Display: FlushAsyncLoading(1123): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:240][685]LogStreaming: Display: FlushAsyncLoading(1124): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:251][686]LogStreaming: Display: FlushAsyncLoading(1125): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:260][687]LogStreaming: Display: FlushAsyncLoading(1126): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:271][688]LogStreaming: Display: FlushAsyncLoading(1127): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:280][689]LogStreaming: Display: FlushAsyncLoading(1128): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:291][690]LogStreaming: Display: FlushAsyncLoading(1129): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:301][691]LogStreaming: Display: FlushAsyncLoading(1130): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:312][692]LogStreaming: Display: FlushAsyncLoading(1131): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:322][693]LogStreaming: Display: FlushAsyncLoading(1132): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:333][694]LogStreaming: Display: FlushAsyncLoading(1133): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:344][695]LogStreaming: Display: FlushAsyncLoading(1134): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:355][696]LogStreaming: Display: FlushAsyncLoading(1135): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:365][697]LogStreaming: Display: FlushAsyncLoading(1136): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:375][698]LogStreaming: Display: FlushAsyncLoading(1137): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:386][699]LogStreaming: Display: FlushAsyncLoading(1138): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:396][700]LogStreaming: Display: FlushAsyncLoading(1139): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:406][701]LogStreaming: Display: FlushAsyncLoading(1140): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:416][702]LogStreaming: Display: FlushAsyncLoading(1141): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:426][703]LogStreaming: Display: FlushAsyncLoading(1142): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:437][704]LogStreaming: Display: FlushAsyncLoading(1143): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:449][705]LogStreaming: Display: FlushAsyncLoading(1144): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:461][706]LogStreaming: Display: FlushAsyncLoading(1145): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:475][707]LogStreaming: Display: FlushAsyncLoading(1146): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:485][708]LogStreaming: Display: FlushAsyncLoading(1147): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:496][709]LogStreaming: Display: FlushAsyncLoading(1148): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:508][710]LogStreaming: Display: FlushAsyncLoading(1149): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:517][711]LogStreaming: Display: FlushAsyncLoading(1150): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:527][712]LogStreaming: Display: FlushAsyncLoading(1151): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:538][713]LogStreaming: Display: FlushAsyncLoading(1152): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:548][714]LogStreaming: Display: FlushAsyncLoading(1153): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:559][715]LogStreaming: Display: FlushAsyncLoading(1154): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:569][716]LogStreaming: Display: FlushAsyncLoading(1155): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:580][717]LogStreaming: Display: FlushAsyncLoading(1156): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:590][718]LogStreaming: Display: FlushAsyncLoading(1157): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:600][719]LogStreaming: Display: FlushAsyncLoading(1158): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:611][720]LogStreaming: Display: FlushAsyncLoading(1159): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:620][721]LogStreaming: Display: FlushAsyncLoading(1160): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:630][722]LogStreaming: Display: FlushAsyncLoading(1161): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:641][723]LogStreaming: Display: FlushAsyncLoading(1162): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:651][724]LogStreaming: Display: FlushAsyncLoading(1163): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:662][725]LogStreaming: Display: FlushAsyncLoading(1164): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:672][726]LogStreaming: Display: FlushAsyncLoading(1165): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:682][727]LogStreaming: Display: FlushAsyncLoading(1166): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:693][728]LogStreaming: Display: FlushAsyncLoading(1167): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:703][729]LogStreaming: Display: FlushAsyncLoading(1168): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:712][730]LogStreaming: Display: FlushAsyncLoading(1169): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:724][731]LogStreaming: Display: FlushAsyncLoading(1170): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:734][732]LogStreaming: Display: FlushAsyncLoading(1171): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:744][733]LogStreaming: Display: FlushAsyncLoading(1172): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:755][734]LogStreaming: Display: FlushAsyncLoading(1173): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:765][735]LogStreaming: Display: FlushAsyncLoading(1174): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:776][736]LogStreaming: Display: FlushAsyncLoading(1175): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:787][737]LogStreaming: Display: FlushAsyncLoading(1176): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:798][738]LogStreaming: Display: FlushAsyncLoading(1177): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:808][739]LogStreaming: Display: FlushAsyncLoading(1178): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:819][740]LogStreaming: Display: FlushAsyncLoading(1179): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:829][741]LogStreaming: Display: FlushAsyncLoading(1180): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:839][742]LogStreaming: Display: FlushAsyncLoading(1181): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:850][743]LogStreaming: Display: FlushAsyncLoading(1182): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:860][744]LogStreaming: Display: FlushAsyncLoading(1183): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:870][745]LogStreaming: Display: FlushAsyncLoading(1184): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:880][746]LogStreaming: Display: FlushAsyncLoading(1185): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:892][747]LogStreaming: Display: FlushAsyncLoading(1186): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:902][748]LogStreaming: Display: FlushAsyncLoading(1187): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:912][749]LogStreaming: Display: FlushAsyncLoading(1188): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:922][750]LogStreaming: Display: FlushAsyncLoading(1189): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:932][751]LogStreaming: Display: FlushAsyncLoading(1190): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:943][752]LogStreaming: Display: FlushAsyncLoading(1191): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:953][753]LogStreaming: Display: FlushAsyncLoading(1192): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:964][754]LogStreaming: Display: FlushAsyncLoading(1193): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:975][755]LogStreaming: Display: FlushAsyncLoading(1194): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:985][756]LogStreaming: Display: FlushAsyncLoading(1195): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.14:996][757]LogStreaming: Display: FlushAsyncLoading(1196): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:006][758]LogStreaming: Display: FlushAsyncLoading(1197): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:017][759]LogStreaming: Display: FlushAsyncLoading(1198): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:027][760]LogStreaming: Display: FlushAsyncLoading(1199): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:037][761]LogStreaming: Display: FlushAsyncLoading(1200): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:048][762]LogStreaming: Display: FlushAsyncLoading(1201): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:058][763]LogStreaming: Display: FlushAsyncLoading(1202): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:068][764]LogStreaming: Display: FlushAsyncLoading(1203): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:079][765]LogStreaming: Display: FlushAsyncLoading(1204): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:089][766]LogStreaming: Display: FlushAsyncLoading(1205): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:099][767]LogStreaming: Display: FlushAsyncLoading(1206): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:110][768]LogStreaming: Display: FlushAsyncLoading(1207): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:119][769]LogStreaming: Display: FlushAsyncLoading(1208): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:130][770]LogStreaming: Display: FlushAsyncLoading(1209): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:140][771]LogStreaming: Display: FlushAsyncLoading(1210): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:150][772]LogStreaming: Display: FlushAsyncLoading(1211): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:160][773]LogStreaming: Display: FlushAsyncLoading(1212): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:169][774]LogStreaming: Display: FlushAsyncLoading(1213): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:179][775]LogStreaming: Display: FlushAsyncLoading(1214): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:189][776]LogStreaming: Display: FlushAsyncLoading(1215): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:199][777]LogStreaming: Display: FlushAsyncLoading(1216): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:208][778]LogStreaming: Display: FlushAsyncLoading(1217): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:218][779]LogStreaming: Display: FlushAsyncLoading(1218): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:229][780]LogStreaming: Display: FlushAsyncLoading(1219): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:238][781]LogStreaming: Display: FlushAsyncLoading(1220): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:249][782]LogStreaming: Display: FlushAsyncLoading(1221): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:260][783]LogStreaming: Display: FlushAsyncLoading(1222): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:270][784]LogStreaming: Display: FlushAsyncLoading(1223): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:282][785]LogStreaming: Display: FlushAsyncLoading(1224): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:293][786]LogStreaming: Display: FlushAsyncLoading(1225): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:304][787]LogStreaming: Display: FlushAsyncLoading(1226): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:315][788]LogStreaming: Display: FlushAsyncLoading(1227): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:324][789]LogStreaming: Display: FlushAsyncLoading(1228): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:335][790]LogStreaming: Display: FlushAsyncLoading(1229): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:346][791]LogStreaming: Display: FlushAsyncLoading(1230): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:355][792]LogStreaming: Display: FlushAsyncLoading(1231): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:366][793]LogStreaming: Display: FlushAsyncLoading(1232): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:376][794]LogStreaming: Display: FlushAsyncLoading(1233): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:386][795]LogStreaming: Display: FlushAsyncLoading(1234): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:396][796]LogStreaming: Display: FlushAsyncLoading(1235): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:407][797]LogStreaming: Display: FlushAsyncLoading(1236): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:417][798]LogStreaming: Display: FlushAsyncLoading(1237): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:427][799]LogStreaming: Display: FlushAsyncLoading(1238): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:438][800]LogStreaming: Display: FlushAsyncLoading(1239): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:450][801]LogStreaming: Display: FlushAsyncLoading(1240): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:460][802]LogStreaming: Display: FlushAsyncLoading(1241): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:472][803]LogStreaming: Display: FlushAsyncLoading(1242): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:481][804]LogStreaming: Display: FlushAsyncLoading(1243): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:492][805]LogStreaming: Display: FlushAsyncLoading(1244): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:503][806]LogStreaming: Display: FlushAsyncLoading(1245): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:512][807]LogStreaming: Display: FlushAsyncLoading(1246): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:524][808]LogStreaming: Display: FlushAsyncLoading(1247): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:534][809]LogStreaming: Display: FlushAsyncLoading(1248): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:544][810]LogStreaming: Display: FlushAsyncLoading(1249): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:555][811]LogStreaming: Display: FlushAsyncLoading(1250): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:566][812]LogStreaming: Display: FlushAsyncLoading(1251): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:576][813]LogStreaming: Display: FlushAsyncLoading(1252): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:587][814]LogStreaming: Display: FlushAsyncLoading(1253): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:596][815]LogStreaming: Display: FlushAsyncLoading(1254): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:606][816]LogStreaming: Display: FlushAsyncLoading(1255): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:618][817]LogStreaming: Display: FlushAsyncLoading(1256): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:628][818]LogStreaming: Display: FlushAsyncLoading(1257): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:639][819]LogStreaming: Display: FlushAsyncLoading(1258): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:650][820]LogStreaming: Display: FlushAsyncLoading(1259): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:661][821]LogStreaming: Display: FlushAsyncLoading(1260): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:672][822]LogStreaming: Display: FlushAsyncLoading(1261): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:683][823]LogStreaming: Display: FlushAsyncLoading(1262): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:694][824]LogStreaming: Display: FlushAsyncLoading(1263): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:704][825]LogStreaming: Display: FlushAsyncLoading(1264): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:714][826]LogStreaming: Display: FlushAsyncLoading(1265): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:725][827]LogStreaming: Display: FlushAsyncLoading(1266): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:736][828]LogStreaming: Display: FlushAsyncLoading(1267): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:747][829]LogStreaming: Display: FlushAsyncLoading(1268): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:757][830]LogStreaming: Display: FlushAsyncLoading(1269): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:768][831]LogStreaming: Display: FlushAsyncLoading(1270): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:779][832]LogStreaming: Display: FlushAsyncLoading(1271): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:790][833]LogStreaming: Display: FlushAsyncLoading(1272): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:800][834]LogStreaming: Display: FlushAsyncLoading(1273): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:811][835]LogStreaming: Display: FlushAsyncLoading(1274): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:821][836]LogStreaming: Display: FlushAsyncLoading(1275): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:832][837]LogStreaming: Display: FlushAsyncLoading(1276): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:842][838]LogStreaming: Display: FlushAsyncLoading(1277): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:853][839]LogStreaming: Display: FlushAsyncLoading(1278): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:864][840]LogStreaming: Display: FlushAsyncLoading(1279): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:876][841]LogStreaming: Display: FlushAsyncLoading(1280): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:890][842]LogStreaming: Display: FlushAsyncLoading(1281): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:901][843]LogStreaming: Display: FlushAsyncLoading(1282): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:911][844]LogStreaming: Display: FlushAsyncLoading(1283): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:922][845]LogStreaming: Display: FlushAsyncLoading(1284): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:932][846]LogStreaming: Display: FlushAsyncLoading(1285): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:942][847]LogStreaming: Display: FlushAsyncLoading(1286): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:952][848]LogStreaming: Display: FlushAsyncLoading(1287): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:964][849]LogStreaming: Display: FlushAsyncLoading(1288): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:974][850]LogStreaming: Display: FlushAsyncLoading(1289): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:986][851]LogStreaming: Display: FlushAsyncLoading(1290): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.15:995][852]LogStreaming: Display: FlushAsyncLoading(1291): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:006][853]LogStreaming: Display: FlushAsyncLoading(1292): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:017][854]LogStreaming: Display: FlushAsyncLoading(1293): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:027][855]LogStreaming: Display: FlushAsyncLoading(1294): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:038][856]LogStreaming: Display: FlushAsyncLoading(1295): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:048][857]LogStreaming: Display: FlushAsyncLoading(1296): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:059][858]LogStreaming: Display: FlushAsyncLoading(1297): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:069][859]LogStreaming: Display: FlushAsyncLoading(1298): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:079][860]LogStreaming: Display: FlushAsyncLoading(1299): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:090][861]LogStreaming: Display: FlushAsyncLoading(1300): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:101][862]LogStreaming: Display: FlushAsyncLoading(1301): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.15-15.42.16:107][863]LogSlate: Window 'Project Settings' being destroyed
+[2024.12.15-15.42.16:113][863]LogSlate: Window 'Project Settings' being destroyed
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: ================================================
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Total job queries 987, among them cache hits 25 (2.53%), DDC hits 0 (0.00%), Duplicates 192 (19.45%)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Tracking 770 distinct input hashes that result in 552 distinct outputs (71.69%)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: RAM used: 352.24 KiB of 819.20 MiB budget. Usage: 0.04%
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Shaders Compiled: 770
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Jobs assigned 770, completed 770 (100%)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Average time worker was idle: 39.53 s
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Time job spent in pending queue: average 31.22 s, longest 74.23 s
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Job execution time: average 8.17 s, max 13.31 s
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Job life time (pending + execution): average 39.39 s, max 76.08
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Shader code size: average 7.366 KiB, min 200 B, max 31.59 KiB
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 112.19 s
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Jobs were issued in 164 batches (only local compilation was used), average 4.70 jobs/batch
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Average processing rate: 6.86 jobs/sec
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Total thread time: 768.959 s
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Total thread preprocess time: 11.051 s
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Percentage time preprocessing: 1.44%
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Effective parallelization: 6.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   22 times, average 2.96 sec, max 4.11 sec, min 1.88 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   21 times, average 1.96 sec, max 4.89 sec, min 0.42 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   45 times, average 1.68 sec, max 6.61 sec, min 0.51 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   28 times, average 1.61 sec, max 7.69 sec, min 0.74 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    2 times, average 1.56 sec, max 1.99 sec, min 1.14 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.81% of total time (compiled   45 times, average 1.68 sec, max 6.61 sec, min 0.51 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.45% of total time (compiled   22 times, average 2.96 sec, max 4.11 sec, min 1.88 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                                  FVelocityPS - 5.88% of total time (compiled   28 times, average 1.61 sec, max 7.69 sec, min 0.74 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.34% of total time (compiled   21 times, average 1.96 sec, max 4.89 sec, min 0.42 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.12% of total time (compiled   26 times, average 1.22 sec, max 3.82 sec, min 0.70 sec)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: === Material stats ===
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Materials Translated:    138
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Material Translation Only: 0.04 s (50%)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.12.15-15.42.25:033][923]LogShaderCompilers: Display: ================================================
+[2024.12.15-15.43.02:534][415]Cmd: POLY SELECT ADJACENT WALLS
+[2024.12.15-15.43.02:784][444]Cmd: POLY SELECT MEMORY UNION
+[2024.12.15-15.43.17:784][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.15-15.43.17:839][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.15-15.43.17:868][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.12.15-15.43.17:935][199]LogSavePackage: Moving output files for package: /Game/Main
+[2024.12.15-15.43.17:935][199]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/MainD84C04FF4AAFB56B90C060A00BDBAC31.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap'
+[2024.12.15-15.43.17:940][199]LogFileHelpers: Saving map 'Main' took 0.101
+[2024.12.15-15.43.17:945][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.274 ms (total: 2.10 sec)
+[2024.12.15-15.43.18:005][199]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.15-15.43.18:005][199]LogContentValidation: Enabled validators:
+[2024.12.15-15.43.18:005][199]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.15-15.43.18:005][199]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.15-15.43.18:005][199]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.15-15.43.18:005][199]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.15-15.43.18:005][199]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.15-15.43.18:005][199]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.15-15.43.18:005][199]AssetCheck: /Game/Main Validating asset
+[2024.12.15-15.47.04:021][ 89]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1022.129395
+[2024.12.15-15.47.04:289][121]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.15-15.47.04:289][121]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1022.388611, Update Interval: 355.878174
