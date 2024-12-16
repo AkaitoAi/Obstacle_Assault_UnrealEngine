@@ -1451,3 +1451,9 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2024.12.16-17.42.52:876][116]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2018.013916
 [2024.12.16-17.42.53:122][145]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.12.16-17.42.53:122][145]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2018.252808, Update Interval: 345.854675
+[2024.12.16-17.47.14:491][852]LogAutomationController: Ignoring very large delta of 2.55 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.16-17.48.36:648][372]LogAutomationController: Ignoring very large delta of 2.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.16-17.49.12:767][583]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2397.884521
+[2024.12.16-17.49.13:025][614]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.16-17.49.13:025][614]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2398.133545, Update Interval: 349.637756
+[2024.12.16-17.53.01:207][478]LogAutomationController: Ignoring very large delta of 2.95 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
