@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap"
+				"E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/Main.umap",
+				"E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/BP_ThirdPersonCharacter.uasset",
+				"E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
 			]
 		}
 	]
