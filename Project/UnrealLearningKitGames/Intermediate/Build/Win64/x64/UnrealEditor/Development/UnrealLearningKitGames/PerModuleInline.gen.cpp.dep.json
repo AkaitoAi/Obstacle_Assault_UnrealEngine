@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\documents\\unreal projects\\obstacle_assault_unrealengine\\project\\unreallearningkitgames\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unreallearningkitgames\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\documents\\unreal projects\\obstacle_assault_unrealengine\\project\\unreallearningkitgames\\intermediate\\build\\win64\\x64\\unreallearningkitgameseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "e:\\documents\\unreal projects\\obstacle_assault_unrealengine\\project\\unreallearningkitgames\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unreallearningkitgames\\definitions.unreallearningkitgames.h",
+            "i:\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

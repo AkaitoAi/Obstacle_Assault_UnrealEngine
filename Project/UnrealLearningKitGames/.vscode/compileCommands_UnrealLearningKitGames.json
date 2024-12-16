@@ -1,0 +1,42 @@
+[
+	{
+		"file": "E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGames\\MovingPlatform.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\.vscode\\compileCommands_UnrealLearningKitGames\\UnrealLearningKitGames.1.rsp"
+		],
+		"directory": "I:\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGames\\MovingPlatform.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\.vscode\\compileCommands_UnrealLearningKitGames\\UnrealLearningKitGames.1.rsp"
+		],
+		"directory": "I:\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGames\\UnrealLearningKitGames.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\.vscode\\compileCommands_UnrealLearningKitGames\\UnrealLearningKitGames.1.rsp"
+		],
+		"directory": "I:\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGames\\UnrealLearningKitGames.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\.vscode\\compileCommands_UnrealLearningKitGames\\UnrealLearningKitGames.1.rsp"
+		],
+		"directory": "I:\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGames\\UnrealLearningKitGames.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\.vscode\\compileCommands_UnrealLearningKitGames\\UnrealLearningKitGames.1.rsp"
+		],
+		"directory": "I:\\UE_5.5\\Engine\\Source"
+	}
+]

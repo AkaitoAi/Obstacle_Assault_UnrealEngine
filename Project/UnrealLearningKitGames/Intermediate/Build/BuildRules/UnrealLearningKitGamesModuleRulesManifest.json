@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGames\\UnrealLearningKitGames.Build.cs",
+		"E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGames.Target.cs",
+		"E:\\Documents\\Unreal Projects\\Obstacle_Assault_UnrealEngine\\Project\\UnrealLearningKitGames\\Source\\UnrealLearningKitGamesEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.1"
+}

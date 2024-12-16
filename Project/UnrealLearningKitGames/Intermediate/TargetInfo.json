@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealLearningKitGames",
+			"Path": "..\\Source\\UnrealLearningKitGames.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealLearningKitGamesEditor",
+			"Path": "..\\Source\\UnrealLearningKitGamesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
