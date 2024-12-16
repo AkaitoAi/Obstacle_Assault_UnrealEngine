@@ -1780,3 +1780,170 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.12.16-16.12.22:692][465]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 721.191711
 [2024.12.16-16.12.22:942][495]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.12.16-16.12.22:942][495]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 721.434204, Update Interval: 320.812408
+[2024.12.16-16.13.10:300][ 91]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2024.12.16-16.13.10:300][ 91]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2024.12.16-16.13.10:301][ 91]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_9'.
+[2024.12.16-16.13.35:624][786]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2024.12.16-16.13.35:624][786]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2024.12.16-16.13.35:819][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.12.16-16.14.57:792][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.14.57:837][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.16-16.14.57:842][ 48]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2024.12.16-16.14.57:842][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter]
+[2024.12.16-16.14.57:852][ 48]LogSavePackage: Moving output files for package: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter
+[2024.12.16-16.14.57:852][ 48]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/ThirdPersonCharacter9FD788564B895D1A80084896745C0667.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset'
+[2024.12.16-16.14.57:859][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.692 ms (total: 863.460 ms)
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: Enabled validators:
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.14.57:919][ 48]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-16.14.57:919][ 48]AssetCheck: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter Validating asset
+[2024.12.16-16.14.58:850][157]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2024.12.16-16.14.58:850][157]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2024.12.16-16.14.58:968][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.12.16-16.15.04:499][490]LogAutomationController: Ignoring very large delta of 2.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.16-16.15.07:582][832]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2024.12.16-16.15.07:583][832]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2024.12.16-16.15.07:704][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.12.16-16.15.09:115][988]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2024.12.16-16.15.09:115][988]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2024.12.16-16.15.09:231][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.12.16-16.15.10:671][148]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.15.10:721][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.16-16.15.10:727][148]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2024.12.16-16.15.10:727][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter]
+[2024.12.16-16.15.10:737][148]LogSavePackage: Moving output files for package: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter
+[2024.12.16-16.15.10:737][148]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/ThirdPersonCharacterB87DB5C9476C25CA987D64B507F04515.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset'
+[2024.12.16-16.15.10:744][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.939 ms (total: 936.400 ms)
+[2024.12.16-16.15.10:803][148]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-16.15.10:803][148]LogContentValidation: Enabled validators:
+[2024.12.16-16.15.10:803][148]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-16.15.10:803][148]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.15.10:803][148]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.15.10:803][148]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-16.15.10:803][148]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.15.10:803][148]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-16.15.10:803][148]AssetCheck: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter Validating asset
+[2024.12.16-16.15.19:168][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.15.19:220][113]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.16-16.15.19:225][113]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2024.12.16-16.15.19:225][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter]
+[2024.12.16-16.15.19:234][113]LogSavePackage: Moving output files for package: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter
+[2024.12.16-16.15.19:235][113]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/ThirdPersonCharacter3D4232B64739E571DFE920A9EC539C5E.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset'
+[2024.12.16-16.15.19:241][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.627 ms (total: 1.01 sec)
+[2024.12.16-16.15.19:302][113]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-16.15.19:302][113]LogContentValidation: Enabled validators:
+[2024.12.16-16.15.19:302][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-16.15.19:302][113]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.15.19:302][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.15.19:302][113]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-16.15.19:302][113]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.15.19:302][113]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-16.15.19:302][113]AssetCheck: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter Validating asset
+[2024.12.16-16.15.22:199][442]LogBlueprint: Warning: [AssetLog] E:\Documents\Unreal Projects\Obstacle_Assault_UnrealEngine\Project\UnrealLearningKitGames\Content\SCK_Casual01\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2024.12.16-16.15.22:319][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.12.16-16.15.23:682][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.15.23:738][592]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.16-16.15.23:743][592]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2024.12.16-16.15.23:743][592]OBJ SavePackage: Finished generating thumbnails for package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter]
+[2024.12.16-16.15.23:752][592]LogSavePackage: Moving output files for package: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter
+[2024.12.16-16.15.23:752][592]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/ThirdPersonCharacterA55DD3B049C3E10D4BAB1089A8204602.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset'
+[2024.12.16-16.15.23:760][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.139 ms (total: 1.08 sec)
+[2024.12.16-16.15.23:819][592]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-16.15.23:819][592]LogContentValidation: Enabled validators:
+[2024.12.16-16.15.23:819][592]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-16.15.23:819][592]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.15.23:819][592]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.15.23:819][592]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-16.15.23:819][592]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.15.23:819][592]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-16.15.23:819][592]AssetCheck: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter Validating asset
+[2024.12.16-16.16.17:176][214]LogAutomationController: Ignoring very large delta of 2.93 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.16-16.16.23:691][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.12.16-16.16.25:515][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.16.25:555][142]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.16-16.16.25:560][142]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2024.12.16-16.16.25:560][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter]
+[2024.12.16-16.16.25:569][142]LogSavePackage: Moving output files for package: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter
+[2024.12.16-16.16.25:569][142]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/ThirdPersonCharacter294DBC7C49F7479EAFE7B09C5387CF3C.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset'
+[2024.12.16-16.16.25:577][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.704 ms (total: 1.15 sec)
+[2024.12.16-16.16.25:635][142]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-16.16.25:635][142]LogContentValidation: Enabled validators:
+[2024.12.16-16.16.25:635][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-16.16.25:635][142]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.16.25:635][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.16.25:635][142]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-16.16.25:636][142]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.16.25:636][142]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-16.16.25:636][142]AssetCheck: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter Validating asset
+[2024.12.16-16.16.25:757][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.16.25:803][154]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.16-16.16.25:803][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/SCK_Casual01/Blueprints/ThirdPersonCharacter]
+[2024.12.16-16.16.25:813][154]LogSavePackage: Moving output files for package: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter
+[2024.12.16-16.16.26:984][154]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/ThirdPersonCharacter9D82F6894D13B6FC98B9D5AE8FD193B0.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset'
+[2024.12.16-16.16.26:993][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.23 sec (total: 2.38 sec)
+[2024.12.16-16.16.27:055][154]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-16.16.27:055][154]LogContentValidation: Enabled validators:
+[2024.12.16-16.16.27:055][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-16.16.27:055][154]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.16.27:055][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.16.27:055][154]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-16.16.27:055][154]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.16.27:055][154]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-16.16.27:055][154]AssetCheck: /Game/SCK_Casual01/Blueprints/ThirdPersonCharacter Validating asset
+[2024.12.16-16.16.29:429][432]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-16.16.29:434][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-16.16.29:434][432]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.12.16-16.16.29:452][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018536s)
+[2024.12.16-16.16.29:452][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.018563s)
+[2024.12.16-16.16.29:472][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.12.16-16.16.29:478][432]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2024.12.16-16.16.29:479][432]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/UEDPIE_0_Main.Main'.
+[2024.12.16-16.16.29:479][432]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2024.12.16-16.16.29:480][432]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.12.16-16.16.29:480][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-16.16.29:480][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-16.16.29:480][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-16.16.29:480][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-16.16.29:480][432]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.16-16.16.29:480][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-16.16.29:480][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.16-16.16.29:480][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-16.16.29:480][432]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-16.16.29:480][432]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-16.16.29:480][432]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-16.16.29:482][432]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-16.16.29:499][432]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.12.16-16.16.29:501][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-16.16.29:501][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-16.16.29:501][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-16.16.29:501][432]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.12.16-16.16.29:501][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.12.16-16.16.29:503][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.12.16-16.16.29:503][432]LogInit: FAudioDevice initialized with ID 5.
+[2024.12.16-16.16.29:503][432]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.12.16-16.16.29:503][432]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2024.12.16-16.16.29:503][432]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.12.16-16.16.29:506][432]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.12.16-16.16.29:517][432]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.12.16-21.16.29
+[2024.12.16-16.16.30:862][432]LogWorld: Bringing up level for play took: 1.356103
+[2024.12.16-16.16.30:865][432]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.12.16-16.16.30:867][432]PIE: Server logged in
+[2024.12.16-16.16.30:868][432]PIE: Play in editor total start time 1.434 seconds.
+[2024.12.16-16.16.35:350][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-16.16.35:350][954]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.12.16-16.16.35:351][954]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.16.35:353][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.16.35:357][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-16.16.35:363][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.16.35:381][954]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.16-16.16.35:382][954]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.12.16-16.16.35:382][954]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.12.16-16.16.35:383][954]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.12.16-16.16.35:387][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-16.16.35:392][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.12.16-16.16.35:421][955]LogPlayLevel: Display: Destroying online subsystem :Context_14
