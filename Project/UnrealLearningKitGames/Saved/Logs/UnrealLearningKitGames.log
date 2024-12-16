@@ -1950,3 +1950,305 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Reset Orientation and Po
 [2024.12.16-16.17.50:638][966]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1049.135498
 [2024.12.16-16.17.50:880][995]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.12.16-16.17.50:880][995]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1049.368774, Update Interval: 350.472717
+[2024.12.16-16.19.48:983][145]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-16.19.48:988][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-16.19.49:029][145]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.12.16-16.19.49:049][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019578s)
+[2024.12.16-16.19.49:049][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.019618s)
+[2024.12.16-16.19.49:071][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.12.16-16.19.49:072][145]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2024.12.16-16.19.49:073][145]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/UEDPIE_0_Main.Main'.
+[2024.12.16-16.19.49:074][145]LogPlayLevel: PIE: World Init took: (0.001528s)
+[2024.12.16-16.19.49:075][145]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.12.16-16.19.49:075][145]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-16.19.49:075][145]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-16.19.49:075][145]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-16.19.49:075][145]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-16.19.49:075][145]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.16-16.19.49:075][145]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-16.19.49:075][145]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.16-16.19.49:075][145]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-16.19.49:075][145]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-16.19.49:075][145]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-16.19.49:075][145]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-16.19.49:078][145]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-16.19.49:095][145]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.12.16-16.19.49:096][145]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-16.19.49:096][145]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-16.19.49:096][145]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-16.19.49:096][145]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.12.16-16.19.49:096][145]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.12.16-16.19.49:099][145]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.12.16-16.19.49:099][145]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.12.16-16.19.49:099][145]LogInit: FAudioDevice initialized with ID 6.
+[2024.12.16-16.19.49:099][145]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2024.12.16-16.19.49:099][145]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.12.16-16.19.49:102][145]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.12.16-16.19.49:114][145]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.12.16-21.19.49
+[2024.12.16-16.19.50:463][145]LogWorld: Bringing up level for play took: 1.361146
+[2024.12.16-16.19.50:466][145]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.12.16-16.19.50:469][145]PIE: Server logged in
+[2024.12.16-16.19.50:470][145]PIE: Play in editor total start time 1.482 seconds.
+[2024.12.16-16.20.00:170][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-16.20.00:170][293]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.12.16-16.20.00:170][293]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.20.00:173][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.20.00:178][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-16.20.00:183][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.20.00:200][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-16.20.00:202][293]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.12.16-16.20.00:202][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.16-16.20.00:204][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.12.16-16.20.00:213][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.12.16-16.20.00:601][294]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.12.16-16.20.15:591][ 34]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.16-16.20.15:597][ 34]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2024.12.16-16.20.16:410][ 39]LogChaosDD: Creating Chaos Debug Draw Scene for world World_10
+[2024.12.16-16.20.16:410][ 39]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_10'.
+[2024.12.16-16.20.35:423][215]LogStreaming: Display: FlushAsyncLoading(498): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-16.20.36:129][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_RGB.T_EpicCharacter_Backpack_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:163][215]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_BlockCharacter) ...
+[2024.12.16-16.20.36:163][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_ARM.T_EpicCharacter_Bedroll_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:181][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_BC.T_EpicCharacter_Backpack_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:185][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_BC.T_EpicCharacter_Bedroll_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:209][215]LogSkeletalMesh: Building Skeletal Mesh SK_BlockCharacter...
+[2024.12.16-16.20.36:215][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_ARM.T_EpicCharacter_Backpack_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:247][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_RGB.T_EpicCharacter_Bedroll_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:280][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_ARM.T_EpicCharacter_Boots_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:309][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_RGB.T_EpicCharacter_Boots_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:333][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_ARM.T_EpicCharacter_Head_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:354][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_BC.T_EpicCharacter_Boots_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:380][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_E.T_EpicCharacter_Head_E (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:389][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_BC.T_EpicCharacter_Head_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:406][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_RGB.T_EpicCharacter_Head_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:473][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_ARM.T_EpicCharacter_Hood_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:514][215]LogSkeletalMesh: Built Skeletal Mesh [0.30s] /Game/BlockGame/PlayerCharacter/SK_BlockCharacter.SK_BlockCharacter
+[2024.12.16-16.20.36:520][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_RGB.T_EpicCharacter_Skin_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:525][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_BC.T_EpicCharacter_Hood_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:525][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_RGB.T_EpicCharacter_Hood_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:554][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_BC.T_EpicCharacter_Skin_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:574][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_ARM.T_EpicCharacter_Skin_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:587][215]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_RGB.T_EpicCharacter_SleevesShorts_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:610][216]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_E.T_EpicCharacter_Tunic_E (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:630][216]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_ARM.T_EpicCharacter_SleevesShorts_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:640][216]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_RGB.T_EpicCharacter_Tunic_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:650][217]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_BC.T_EpicCharacter_Tunic_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:676][218]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_BC.T_EpicCharacter_SleevesShorts_BC (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.36:684][218]LogTexture: Display: Building textures: /Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_ARM.T_EpicCharacter_Tunic_ARM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.38:875][470]LogEditorTransaction: Undo Edit Skeletal Mesh Asset
+[2024.12.16-16.20.43:598][732]LogChaosDD: Creating Chaos Debug Draw Scene for world World_11
+[2024.12.16-16.20.43:598][732]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_11'.
+[2024.12.16-16.20.43:961][762]LogStreaming: Display: FlushAsyncLoading(499): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-16.20.44:001][762]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_00/TEX_T_00_S.TEX_T_00_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.44:004][762]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_T_00) ...
+[2024.12.16-16.20.44:005][762]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_00/TEX_T_00_M.TEX_T_00_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.44:033][762]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_00/TEX_T_00_R.TEX_T_00_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.44:056][762]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_00/TEX_T_00_D_A.TEX_T_00_D_A (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.44:082][762]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_00/TEX_T_00_N.TEX_T_00_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.44:178][762]LogSkeletalMesh: Building Skeletal Mesh MESH_T_00...
+[2024.12.16-16.20.44:290][762]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/SCK_Casual01/Models/MESH_T_00.MESH_T_00
+[2024.12.16-16.20.44:346][763]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_00/TEX_T_00_SC.TEX_T_00_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.46:466][967]LogEditorTransaction: Undo Edit Skeletal Mesh Asset
+[2024.12.16-16.20.51:270][350]LogStreaming: Display: FlushAsyncLoading(500): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-16.20.51:308][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_M.TEX_H_A_01_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.51:347][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_S.TEX_H_A_01_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.51:354][350]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_PC_00) ...
+[2024.12.16-16.20.51:356][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_R.TEX_H_A_01_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.51:388][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_D.TEX_H_A_01_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.51:402][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_N.TEX_H_A_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.51:520][350]LogSkeletalMesh: Building Skeletal Mesh MESH_PC_00...
+[2024.12.16-16.20.52:130][350]LogSkeletalMesh: Built Skeletal Mesh [0.61s] /Game/SCK_Casual01/Models/Premade_Characters/MESH_PC_00.MESH_PC_00
+[2024.12.16-16.20.52:156][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_00/TEX_L_00_M.TEX_L_00_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:196][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_00/TEX_L_00_R.TEX_L_00_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:199][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_SC.TEX_H_A_01_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:219][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_00/TEX_L_00_D_A.TEX_L_00_D_A (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:239][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_00/TEX_L_00_N.TEX_L_00_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:277][350]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_00/TEX_L_00_S.TEX_L_00_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:483][353]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_M.TEX_P_00_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:539][356]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_R.TEX_P_00_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:562][356]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_00/TEX_L_00_SC.TEX_L_00_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:576][357]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_N.TEX_P_00_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:591][357]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_S.TEX_P_00_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:647][359]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_D_A.TEX_P_00_D_A (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.52:794][367]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/P_00/TEX_P_00_SC.TEX_P_00_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.55:422][520]LogStreaming: Display: FlushAsyncLoading(501): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-16.20.55:482][520]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_PC_01) ...
+[2024.12.16-16.20.55:488][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_M.TEX_T_03_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.55:508][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_S.TEX_T_03_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.55:509][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_R.TEX_T_03_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.55:549][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_D_1.TEX_T_03_D_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.55:588][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_N.TEX_T_03_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.55:815][520]LogSkeletalMesh: Building Skeletal Mesh MESH_PC_01...
+[2024.12.16-16.20.56:202][520]LogSkeletalMesh: Built Skeletal Mesh [0.39s] /Game/SCK_Casual01/Models/Premade_Characters/MESH_PC_01.MESH_PC_01
+[2024.12.16-16.20.56:246][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_M.TEX_L_01_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.56:251][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_SC.TEX_T_03_SC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.56:325][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_D_1.TEX_L_01_D_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.56:351][520]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_D_3.TEX_L_01_D_3 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.56:393][521]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_N.TEX_L_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.56:450][522]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_R.TEX_L_01_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.20.56:696][536]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_S.TEX_L_01_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.01:373][872]LogPSOHitching: Encountered 50 PSO creation hitches so far (50 graphics, 0 compute). 0 of them were precached.
+[2024.12.16-16.21.01:603][893]LogStreaming: Display: FlushAsyncLoading(502): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-16.21.01:631][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_M.TEX_A_01_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.01:635][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_R.TEX_A_01_R (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.01:639][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_D_1.TEX_A_01_D_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.01:646][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_D_5.TEX_A_01_D_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.01:653][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_N.TEX_A_01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.01:685][893]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_PC_03) ...
+[2024.12.16-16.21.01:753][893]LogSkeletalMesh: Building Skeletal Mesh MESH_PC_03...
+[2024.12.16-16.21.02:068][893]LogSkeletalMesh: Built Skeletal Mesh [0.32s] /Game/SCK_Casual01/Models/Premade_Characters/MESH_PC_03.MESH_PC_03
+[2024.12.16-16.21.02:077][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_M.TEX_A_02_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:083][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_D_1.TEX_A_02_D_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:084][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_S.TEX_A_01_S (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:097][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_D_3.TEX_A_02_D_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:112][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_N.TEX_A_02_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:121][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_S.TEX_A_02_S (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:123][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_02/TEX_A_02_R.TEX_A_02_R (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:194][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_M.TEX_A_04_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:197][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_D_1.TEX_A_04_D_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:204][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_R.TEX_A_04_R (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:230][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_D_3.TEX_A_04_D_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:236][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_N.TEX_A_04_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:238][893]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_04/TEX_A_04_S.TEX_A_04_S (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:295][894]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_03/TEX_T_03_D_2.TEX_T_03_D_2 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:344][895]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_D_4.TEX_L_01_D_4 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.02:873][916]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2024.12.16-16.21.09:081][289]LogChaosDD: Creating Chaos Debug Draw Scene for world World_12
+[2024.12.16-16.21.09:081][289]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_12'.
+[2024.12.16-16.21.15:255][972]LogChaosDD: Creating Chaos Debug Draw Scene for world World_13
+[2024.12.16-16.21.15:255][972]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_13'.
+[2024.12.16-16.21.15:278][973]LogChaosDD: Creating Chaos Debug Draw Scene for world World_14
+[2024.12.16-16.21.15:278][973]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_14'.
+[2024.12.16-16.21.15:306][974]LogChaosDD: Creating Chaos Debug Draw Scene for world World_15
+[2024.12.16-16.21.15:306][974]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_15'.
+[2024.12.16-16.21.23:793][803]LogStreaming: Display: FlushAsyncLoading(503): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-16.21.23:817][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_03/TEX_A_03_M.TEX_A_03_M (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.23:823][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_03/TEX_A_03_S.TEX_A_03_S (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.23:825][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_03/TEX_A_03_D_1.TEX_A_03_D_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.23:825][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_03/TEX_A_03_R.TEX_A_03_R (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.23:844][803]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (MESH_PC_02) ...
+[2024.12.16-16.21.23:845][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_03/TEX_A_03_N.TEX_A_03_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 169.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.23:931][803]LogSkeletalMesh: Building Skeletal Mesh MESH_PC_02...
+[2024.12.16-16.21.24:286][803]LogSkeletalMesh: Built Skeletal Mesh [0.36s] /Game/SCK_Casual01/Models/Premade_Characters/MESH_PC_02.MESH_PC_02
+[2024.12.16-16.21.24:307][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/A_01/TEX_A_01_D_4.TEX_A_01_D_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:314][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_M.TEX_T_01_M (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:368][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_D_5.TEX_T_01_D_5 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:384][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/L_01/TEX_L_01_D_2.TEX_L_01_D_2 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:385][803]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_D_1.TEX_T_01_D_1 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:475][805]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_R.TEX_T_01_R (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:495][806]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_N.TEX_T_01_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 337.499988 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:757][820]LogTexture: Display: Building textures: /Game/SCK_Casual01/Textures/T_01/TEX_T_01_S.TEX_T_01_S (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2024.12.16-16.21.24:893][826]LogChaosDD: Creating Chaos Debug Draw Scene for world World_16
+[2024.12.16-16.21.24:893][826]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_16'.
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: ================================================
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Total job queries 342, among them cache hits 169 (49.42%), DDC hits 49 (14.33%), Duplicates 22 (6.43%)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Tracking 151 distinct input hashes that result in 91 distinct outputs (60.26%)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: RAM used: 99.71 KiB of 819.20 MiB budget. Usage: 0.01%
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Shaders Compiled: 102
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Jobs assigned 102, completed 102 (100%)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Average time worker was idle: 108.97 s
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Time job spent in pending queue: average 0.84 s, longest 4.22 s
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Job execution time: average 2.33 s, max 7.29 s
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Job life time (pending + execution): average 3.17 s, max 7.36
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Shader code size: average 4.469 KiB, min 284 B, max 13.043 KiB
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 42.24 s
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Jobs were issued in 102 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Average processing rate: 2.41 jobs/sec
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Total thread time: 118.909 s
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Total thread preprocess time: 4.782 s
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Percentage time preprocessing: 4.02%
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Effective parallelization: 2.82 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled   12 times, average 1.53 sec, max 2.08 sec, min 1.00 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   12 times, average 1.40 sec, max 2.16 sec, min 0.90 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 1.12 sec, max 1.51 sec, min 0.67 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    9 times, average 0.90 sec, max 1.09 sec, min 0.63 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight (compiled    9 times, average 0.88 sec, max 1.09 sec, min 0.66 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 15.42% of total time (compiled   12 times, average 1.53 sec, max 2.08 sec, min 1.00 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:                                                  FVelocityPS - 14.09% of total time (compiled   12 times, average 1.40 sec, max 2.16 sec, min 0.90 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.22% of total time (compiled   14 times, average 1.12 sec, max 1.51 sec, min 0.67 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect - 8.39% of total time (compiled   12 times, average 0.83 sec, max 0.96 sec, min 0.62 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight - 7.92% of total time (compiled   12 times, average 0.78 sec, max 0.95 sec, min 0.53 sec)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: === Material stats ===
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Materials Translated:    150
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Material Translation Only: 0.04 s (59%)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: Material Cache Hits: 45 (30%)
+[2024.12.16-16.21.41:993][538]LogShaderCompilers: Display: ================================================
+[2024.12.16-16.21.57:914][975]LogEditorTransaction: Undo Replace component used material
+[2024.12.16-16.22.02:181][238]LogStreaming: Display: FlushAsyncLoading(504): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-16.22.03:859][418]LogEditorTransaction: Undo Replace component used material
+[2024.12.16-16.22.33:508][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.22.33:557][742]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.12.16-16.22.33:569][742]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.12.16-16.22.33:569][742]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_ThirdPersonCharacter]
+[2024.12.16-16.22.33:573][742]LogSavePackage: Moving output files for package: /Game/BP_ThirdPersonCharacter
+[2024.12.16-16.22.33:573][742]LogSavePackage: Moving 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Saved/BP_ThirdPersonCharacterEBAB6F0141F3579E83FBAE8BC9E279E7.tmp' to 'E:/Documents/Unreal Projects/Obstacle_Assault_UnrealEngine/Project/UnrealLearningKitGames/Content/BP_ThirdPersonCharacter.uasset'
+[2024.12.16-16.22.33:580][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.549 ms (total: 2.46 sec)
+[2024.12.16-16.22.33:637][742]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.16-16.22.33:637][742]LogContentValidation: Enabled validators:
+[2024.12.16-16.22.33:637][742]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.16-16.22.33:637][742]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.22.33:637][742]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.22.33:637][742]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.16-16.22.33:637][742]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.22.33:637][742]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.16-16.22.33:639][742]AssetCheck: /Game/BP_ThirdPersonCharacter Validating asset
+[2024.12.16-16.22.36:223][ 29]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-16.22.37:100][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-16.22.37:129][ 29]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.12.16-16.22.37:149][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019635s)
+[2024.12.16-16.22.37:149][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.019670s)
+[2024.12.16-16.22.37:171][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.12.16-16.22.37:181][ 29]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2024.12.16-16.22.37:182][ 29]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/UEDPIE_0_Main.Main'.
+[2024.12.16-16.22.37:183][ 29]LogPlayLevel: PIE: World Init took: (0.001559s)
+[2024.12.16-16.22.37:184][ 29]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.12.16-16.22.37:184][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-16.22.37:184][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-16.22.37:184][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-16.22.37:184][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-16.22.37:184][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.16-16.22.37:184][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-16.22.37:184][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.16-16.22.37:184][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-16.22.37:184][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-16.22.37:184][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-16.22.37:184][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-16.22.37:186][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-16.22.37:204][ 29]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.12.16-16.22.37:204][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-16.22.37:204][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-16.22.37:204][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-16.22.37:205][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.12.16-16.22.37:205][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.12.16-16.22.37:206][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.12.16-16.22.37:206][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.12.16-16.22.37:206][ 29]LogInit: FAudioDevice initialized with ID 7.
+[2024.12.16-16.22.37:207][ 29]LogAudio: Display: Audio Device (ID: 7) registered with world 'Main'.
+[2024.12.16-16.22.37:207][ 29]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.12.16-16.22.37:209][ 29]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.12.16-16.22.37:221][ 29]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.12.16-21.22.37
+[2024.12.16-16.22.38:585][ 29]LogWorld: Bringing up level for play took: 1.374635
+[2024.12.16-16.22.38:587][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.12.16-16.22.38:589][ 29]PIE: Server logged in
+[2024.12.16-16.22.38:591][ 29]PIE: Play in editor total start time 1.491 seconds.
+[2024.12.16-16.22.38:604][ 29]LogAutomationController: Ignoring very large delta of 2.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.16-16.23.06:580][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-16.23.06:580][322]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.12.16-16.23.06:580][322]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.23.06:583][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.23.06:596][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-16.23.06:606][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.23.06:626][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-16.23.06:626][322]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.12.16-16.23.06:626][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.12.16-16.23.06:628][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.12.16-16.23.06:639][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.12.16-16.23.06:669][323]LogPlayLevel: Display: Destroying online subsystem :Context_23
